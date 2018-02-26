@@ -17,6 +17,13 @@
     padding-top: 2.3em;
 }
 
+.social-button.github:before {
+    background-color: #d1d5da;
+}
+.social-button.github .fa {
+    color: #24292e;
+}
+
 @media (max-width: 384px) {
 
 }
