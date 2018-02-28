@@ -17,6 +17,19 @@
     padding-top: 2.3em;
 }
 
+[class^='imghvr-'],
+[class*=' imghvr-'] {
+    background-color: #FFC880;
+}
+[class^='imghvr-'] .agile-figcaption,
+[class*=' imghvr-'] .agile-figcaption {
+    background-color: #FFC880;
+}
+
+.subscribe form input[name=EMAIL] {
+    color: #999;
+}
+
 .social-button.github:before {
     background-color: #d1d5da;
 }
