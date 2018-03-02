@@ -42,7 +42,13 @@
 }
 
 @media (max-width: 414px) {
-
+    .features ul.nav.nav-tabs {
+        left: 5%;
+        right: 0 !important;
+    }
+        .features ul.nav.nav-tabs li a {
+            margin-right: 0.3em;
+        }
 }
 
 @media (max-width: 767px) {
@@ -81,5 +87,11 @@
 @media (max-width: 1080px) {
     .banner .collapse.navbar-collapse ul.nav.navbar-nav.nav-center {
         margin: 0 2%;
+    }
+}
+
+@media (max-width: 1366px) {
+    .features ul.nav.nav-tabs {
+        right: 12%;
     }
 }
