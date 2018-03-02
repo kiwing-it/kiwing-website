@@ -38,7 +38,9 @@
 }
 
 @media (max-width: 384px) {
-
+    .subscribe input[type="text"] {
+        width: 56% !important;
+    }
 }
 
 @media (max-width: 414px) {
@@ -49,6 +51,10 @@
         .features ul.nav.nav-tabs li a {
             margin-right: 0.3em;
         }
+
+    .subscribe input[type="text"] {
+        width: 65%;
+    }
 }
 
 @media (max-width: 767px) {
