@@ -60,13 +60,14 @@
 @media (max-width: 991px) {
     .banner .navbar-header h1 a {
         display: initial;
-        padding-bottom: 1rem;
+        padding-bottom: 0.5rem;
+        padding-top: 0;
     }
         .banner .navbar-header h1 a img.kiwing-name-img {
-            width: 9rem;
+            width: 7.5rem;
         }
         .banner .navbar-header h1 a img.kiwing-bird-img {
-            width: 6rem;
+            width: 4.5rem;
         }
 
     .banner .collapse.navbar-collapse ul.nav.navbar-nav.nav-center {
