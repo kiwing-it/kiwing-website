@@ -28,6 +28,18 @@
     background-color: #FFC880;
 }
 
+.gallery .agile-figcaption h4 {
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 0.2em;
+}
+
+.features .features-right,
+.address .address-left,
+.footer {
+    background-color: #053455;
+}
+
 .subscribe form input[name=EMAIL] {
     color: #999;
 }
