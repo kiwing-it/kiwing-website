@@ -40,6 +40,14 @@
     background-color: #053455;
 }
 
+#services {
+    padding-bottom: 1rem;
+}
+
+#team span.fa.fa-tablet.icon {
+    width: 3.75rem;
+}
+
 .subscribe form input[name=EMAIL] {
     color: #999;
 }
@@ -99,6 +107,10 @@
     }
     .banner .collapse.navbar-collapse ul.nav.navbar-nav {
         padding-top: 1.3em;
+    }
+
+    #team span.fa.fa-tablet.icon {
+        width: 3.0rem;
     }
 }
 
