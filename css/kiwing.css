@@ -44,6 +44,10 @@
     padding-bottom: 1rem;
 }
 
+#team {
+    padding-bottom: 1rem;
+    padding-top: 4rem;
+}
 #team span.fa.fa-tablet.icon {
     width: 3.75rem;
 }
