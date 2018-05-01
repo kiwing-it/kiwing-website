@@ -35,6 +35,9 @@
     <link href="css/logoiconfont.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet" title="main-css">
 
+    <!-- Custom Stylesheet -->
+    <link href="css/kiwing.css" rel="stylesheet">
+
     @if(env('APP_ENV') === 'dev')
         <!-- Style Switcher / remove for production -->
         <link href="css/style-switcher.css" rel="stylesheet">

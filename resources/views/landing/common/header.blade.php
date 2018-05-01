@@ -13,7 +13,7 @@
                         <span class="icon-bar"></span>
                     </button>
                     <a class="navbar-brand scroll-link" href="#home" data-id="home">
-                        <img src="images/kiwing-name.png" style="width: 12rem; height: 4.5rem;" />
+                        <img src="images/kiwing-name.png" />
                     </a>
                 </div>
 
