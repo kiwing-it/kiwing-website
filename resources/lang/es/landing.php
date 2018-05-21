@@ -30,7 +30,7 @@ return [
                 'first' => [
                     'title_top_part'    => 'Procesos',
                     'title_bottom_part' => 'Ágiles',
-                    'description'       => 'Las exigencias del mercado han cambiado y nos adaptamos con él. Creemos en la flexibilidad y la inmediatez de resultados funcionales de alta calidad.',
+                    'description'       => 'Las exigencias del mercado han cambiado y nos adaptamos a él. Creemos en la flexibilidad y la inmediatez de resultados funcionales de alta calidad.',
                 ],
                 'second' => [
                     'title_top_part'    => 'Comunicación',
@@ -65,7 +65,54 @@ return [
     ],
 
     'services' => [
-        '' => '',
+        'first' => [
+            'name' => '1. Mobile Applications',
+            'short_description' => '(híbridas y nativas) Lorem ipsum dolor sit amet, consectet adipiscing elit. Cras est urna, imperd eget sem at',
+            'modal' => [
+                'title' => 'Mobile Applications',
+                'trigger' => 'Más info',
+            ],
+        ],
+        'second' => [
+            'name' => '2. Web Applications',
+            'short_description' => 'Lorem ipsum dolor sit amet, consectet adipiscing elit. Cras est urna, imperd eget sem at, pellentes que cursus elit.',
+            'modal' => [
+                'title' => 'Mobile Applications',
+                'trigger' => 'Más info',
+            ],
+        ],
+        'third' => [
+            'name' => '3. Web Services',
+            'short_description' => 'Lorem ipsum dolor sit amet, consectet adipiscing elit. Cras est urna, imperd eget sem at, pellentes que cursus elit.',
+            'modal' => [
+                'title' => 'Mobile Applications',
+                'trigger' => 'Más info',
+            ],
+        ],
+        'fourth' => [
+            'name' => '4. Full Life-Cycle',
+            'short_description' => 'Lorem ipsum dolor sit amet, consectet adipiscing elit. Cras est urna, imperd eget sem at, pellentes que cursus elit.',
+            'modal' => [
+                'title' => 'Mobile Applications',
+                'trigger' => 'Más info',
+            ],
+        ],
+        'fifth' => [
+            'name' => '5. Consultoría',
+            'short_description' => 'Lorem ipsum dolor sit amet, consectet adipiscing elit. Cras est urna, imperd eget sem at, pellentes que cursus elit.',
+            'modal' => [
+                'title' => 'Mobile Applications',
+                'trigger' => 'Más info',
+            ],
+        ],
+        'sixth' => [
+            'name' => '6. Equipos dedicados',
+            'short_description' => 'Lorem ipsum dolor sit amet, consectet adipiscing elit. Cras est urna, imperd eget sem at, pellentes que cursus elit.',
+            'modal' => [
+                'title' => 'Mobile Applications',
+                'trigger' => 'Más info',
+            ],
+        ],
     ],
 
     'about' => [

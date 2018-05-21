@@ -13,9 +13,11 @@
             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
                 <div class="services-box leftReveal">
                     <span class="pe-7s-airplay services-icon"></span>
-                    <h3 class="service-name">1. Web Design</h3>
-                    <p class="text-small">Lorem ipsum dolor sit amet, consectet adipiscing elit. Cras est urna, imperd eget sem at, pellentes que cursus elit.</p>
-                    <button type="button" class="btn btn-default mt10" data-toggle="modal" data-target="#item1-services">Info</button>
+                    <h3 class="service-name">{{ trans('landing.services.first.name') }}</h3>
+                    <p class="text-small">{{ trans('landing.services.first.short_description') }}</p>
+                    <button type="button" class="btn btn-default mt10" data-toggle="modal" data-target="#item1-services">
+                        {{ trans('landing.services.first.modal.trigger') }}
+                    </button>
                 </div>
             </div><!-- /.column -->
             <!-- Item 1 Modal -->
@@ -23,10 +25,11 @@
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span class="ion-ios-close-empty"></span>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span class="ion-ios-close-empty"></span>
                             </button>
                             <span class="pe-7s-airplay services-icon-2"></span>
-                            <h4 class="service-title">Web Design</h4>
+                            <h4 class="service-title">{{ trans('landing.services.first.modal.title') }}</h4>
                         </div>
                         <div class="modal-body">
                             <p>No, thank ye, Bunger, said the English Captain, "he's welcome to the arm he has, since I can't help it, and didn't know him then; but not to another one. No more White Whales for me; I've lowered for him once.</p>
@@ -44,11 +47,12 @@
             <!-- Item 2 -->
             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 mt30-xs">
                 <div class="services-box topReveal">
-                    <span class="services-badge badge">New</span>
                     <span class="pe-7s-phone services-icon"></span>
-                    <h3 class="service-name">2. Applications</h3>
-                    <p class="text-small">Lorem ipsum dolor sit amet, consectet adipiscing elit. Cras est urna, imperd eget sem at, pellentes que cursus elit.</p>
-                    <button type="button" class="btn btn-default mt10" data-toggle="modal" data-target="#item2-services">Info</button>
+                    <h3 class="service-name">{{ trans('landing.services.second.name') }}</h3>
+                    <p class="text-small">{{ trans('landing.services.second.short_description') }}</p>
+                    <button type="button" class="btn btn-default mt10" data-toggle="modal" data-target="#item2-services">
+                        {{ trans('landing.services.second.modal.trigger') }}
+                    </button>
                 </div>
             </div><!-- /.column -->
             <!-- Item 2 Modal -->
@@ -56,10 +60,11 @@
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span class="ion-ios-close-empty"></span>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span class="ion-ios-close-empty"></span>
                             </button>
                             <span class="pe-7s-phone services-icon-2"></span>
-                            <h4 class="service-title">Applications</h4>
+                            <h4 class="service-title">{{ trans('landing.services.second.modal.title') }}</h4>
                         </div>
                         <div class="modal-body">
                             <p>No, thank ye, Bunger, said the English Captain, "he's welcome to the arm he has, since I can't help it, and didn't know him then; but not to another one. No more White Whales for me; I've lowered for him once.</p>
@@ -78,9 +83,11 @@
             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 mt30-sm mt30-xs">
                 <div class="services-box rightReveal">
                     <span class="pe-7s-camera services-icon"></span>
-                    <h3 class="service-name">3. Photography</h3>
-                    <p class="text-small">Lorem ipsum dolor sit amet, consectet adipiscing elit. Cras est urna, imperd eget sem at, pellentes que cursus elit.</p>
-                    <button type="button" class="btn btn-default mt10" data-toggle="modal" data-target="#item3-services">Info</button>
+                    <h3 class="service-name">{{ trans('landing.services.third.name') }}</h3>
+                    <p class="text-small">{{ trans('landing.services.third.short_description') }}</p>
+                    <button type="button" class="btn btn-default mt10" data-toggle="modal" data-target="#item3-services">
+                        {{ trans('landing.services.third.modal.trigger') }}
+                    </button>
                 </div>
             </div><!-- /.column -->
             <!-- Item 3 Modal -->
@@ -88,10 +95,11 @@
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span class="ion-ios-close-empty"></span>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span class="ion-ios-close-empty"></span>
                             </button>
                             <span class="pe-7s-camera services-icon-2"></span>
-                            <h4 class="service-title">Photography</h4>
+                            <h4 class="service-title">{{ trans('landing.services.third.modal.title') }}</h4>
                         </div>
                         <div class="modal-body">
                             <p>No, thank ye, Bunger, said the English Captain, "he's welcome to the arm he has, since I can't help it, and didn't know him then; but not to another one. No more White Whales for me; I've lowered for him once.</p>
@@ -109,11 +117,12 @@
             <!-- Item 4 -->
             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 mt30">
                 <div class="services-box leftReveal">
-                    <span class="services-badge badge">New</span>
                     <span class="pe-7s-anchor services-icon"></span>
-                    <h3 class="service-name">4. Iconography</h3>
-                    <p class="text-small">Lorem ipsum dolor sit amet, consectet adipiscing elit. Cras est urna, imperd eget sem at, pellentes que cursus elit.</p>
-                    <button type="button" class="btn btn-default mt10" data-toggle="modal" data-target="#item4-services">Info</button>
+                    <h3 class="service-name">{{ trans('landing.services.fourth.name') }}</h3>
+                    <p class="text-small">{{ trans('landing.services.fourth.short_description') }}</p>
+                    <button type="button" class="btn btn-default mt10" data-toggle="modal" data-target="#item4-services">
+                        {{ trans('landing.services.fourth.modal.trigger') }}
+                    </button>
                 </div>
             </div><!-- /.column -->
             <!-- Item 4 Modal -->
@@ -121,10 +130,11 @@
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span class="ion-ios-close-empty"></span>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span class="ion-ios-close-empty"></span>
                             </button>
                             <span class="pe-7s-anchor services-icon-2"></span>
-                            <h4 class="service-title">Iconography</h4>
+                            <h4 class="service-title">{{ trans('landing.services.fourth.modal.title') }}</h4>
                         </div>
                         <div class="modal-body">
                             <p>No, thank ye, Bunger, said the English Captain, "he's welcome to the arm he has, since I can't help it, and didn't know him then; but not to another one. No more White Whales for me; I've lowered for him once.</p>
@@ -143,9 +153,11 @@
             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 mt30">
                 <div class="services-box bottomReveal">
                     <span class="pe-7s-users services-icon"></span>
-                    <h3 class="service-name">5. Support</h3>
-                    <p class="text-small">Lorem ipsum dolor sit amet, consectet adipiscing elit. Cras est urna, imperd eget sem at, pellentes que cursus elit.</p>
-                    <button type="button" class="btn btn-default mt10" data-toggle="modal" data-target="#item5-services">Info</button>
+                    <h3 class="service-name">{{ trans('landing.services.fifth.name') }}</h3>
+                    <p class="text-small">{{ trans('landing.services.fifth.short_description') }}</p>
+                    <button type="button" class="btn btn-default mt10" data-toggle="modal" data-target="#item5-services">
+                        {{ trans('landing.services.fifth.modal.trigger') }}
+                    </button>
                 </div>
             </div><!-- /.column -->
             <!-- Item 5 Modal -->
@@ -153,10 +165,11 @@
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span class="ion-ios-close-empty"></span>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span class="ion-ios-close-empty"></span>
                             </button>
                             <span class="pe-7s-users services-icon-2"></span>
-                            <h4 class="service-title">Support</h4>
+                            <h4 class="service-title">{{ trans('landing.services.fifth.modal.title') }}</h4>
                         </div>
                         <div class="modal-body">
                             <p>No, thank ye, Bunger, said the English Captain, "he's welcome to the arm he has, since I can't help it, and didn't know him then; but not to another one. No more White Whales for me; I've lowered for him once.</p>
@@ -174,11 +187,12 @@
             <!-- Item 6 -->
             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 mt30">
                 <div class="services-box rightReveal">
-                    <span class="services-badge badge">New</span>
                     <span class="pe-7s-volume services-icon"></span>
-                    <h3 class="service-name">6. Audio</h3>
-                    <p class="text-small">Lorem ipsum dolor sit amet, consectet adipiscing elit. Cras est urna, imperd eget sem at, pellentes que cursus elit.</p>
-                    <button type="button" class="btn btn-default mt10" data-toggle="modal" data-target="#item6-services">Info</button>
+                    <h3 class="service-name">{{ trans('landing.services.sixth.name') }}</h3>
+                    <p class="text-small">{{ trans('landing.services.sixth.short_description') }}</p>
+                    <button type="button" class="btn btn-default mt10" data-toggle="modal" data-target="#item6-services">
+                        {{ trans('landing.services.sixth.modal.trigger') }}
+                    </button>
                 </div>
             </div><!-- /.column -->
             <!-- Item 6 Modal -->
@@ -186,10 +200,11 @@
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span class="ion-ios-close-empty"></span>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span class="ion-ios-close-empty"></span>
                             </button>
                             <span class="pe-7s-volume services-icon-2"></span>
-                            <h4 class="service-title">Audio</h4>
+                            <h4 class="service-title">{{ trans('landing.services.sixth.modal.title') }}</h4>
                         </div>
                         <div class="modal-body">
                             <p>No, thank ye, Bunger, said the English Captain, "he's welcome to the arm he has, since I can't help it, and didn't know him then; but not to another one. No more White Whales for me; I've lowered for him once.</p>
