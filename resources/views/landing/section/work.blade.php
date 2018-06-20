@@ -3,178 +3,79 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-xs-12 section-title text-center">
-                <h2>Work</h2>
+                <h2>{{ trans('landing.work.title') }}</h2>
                 <span class="section-divider mb15"></span>
-                <p class="mb30 scaleReveal">We do awesome stuff, and yeah.</p>
+                <p class="mb30 scaleReveal">{{ trans('landing.work.subtitle') }}</p>
             </div><!-- /.column -->
         </div><!-- /.row -->
         <div class="row">
             <div class="col-xs-12 text-center mb50">
                 <!-- Filter Buttons -->
-                <button class="filter btn btn-default btn-category btn-lg" data-filter="all">All</button>
-                <button class="filter btn btn-default btn-category btn-lg" data-filter=".identity">Identity</button>
-                <button class="filter btn btn-default btn-category btn-lg" data-filter=".print">Print</button>
-                <button class="filter btn btn-default btn-category btn-lg" data-filter=".graphics">Graphics</button>
-                <button class="filter btn btn-default btn-category btn-lg" data-filter=".web">Web</button>
+                <button class="filter btn btn-default btn-category btn-lg" data-filter="all">
+					{{ trans('landing.work.categories.all') }}
+				</button>
+                <button class="filter btn btn-default btn-category btn-lg" data-filter=".web-application">
+					{{ trans('landing.work.categories.web_application') }}
+				</button>
+                <button class="filter btn btn-default btn-category btn-lg" data-filter=".mobile-application">
+					{{ trans('landing.work.categories.mobile_application') }}
+				</button>
+                <button class="filter btn btn-default btn-category btn-lg" data-filter=".progressive-web-app">
+					{{ trans('landing.work.categories.progressive_web_app') }}
+				</button>
 
                 <!-- Sort Buttons -->
-                <button class="sort btn btn-default btn-sort btn-lg" data-sort="my-order:asc"><span class="ion-ios-plus-empty"></span></button>
-                <button class="sort btn btn-default btn-sort btn-lg" data-sort="my-order:desc"><span class="ion-ios-minus-empty"></span></button>
+                <button class="sort btn btn-default btn-sort btn-lg" data-sort="my-order:asc">
+					<span class="ion-ios-plus-empty"></span>
+				</button>
+                <button class="sort btn btn-default btn-sort btn-lg" data-sort="my-order:desc">
+					<span class="ion-ios-minus-empty"></span>
+				</button>
             </div><!-- /.column -->
         </div><!-- /.row -->
         <div id="thework">
             <!-- Item 1 -->
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 portfolio-box no-padding mix graphics" data-my-order="3">
-                <div class="portfolio-image-holder"><img src="images/work/1.jpg" alt="1" class="img-responsive portfolio-image"></div>
-                <span class="portfolio-badge badge">Graphics</span>
-                <span class="portfolio-hover">
-						<span>
-							<a href="https://dribbble.com/" target="_blank">
-								<span class="portfolio-links"><span class="ion-ios-arrow-right portfolio-links-icons"></span></span>
-							</a>
-							<a href="images/work/1.jpg" class="zoom" title="Equipt Design">
-								<span class="portfolio-links"><span class="ion-arrow-expand portfolio-links-icons"></span></span>
-							</a>
-							<span class="project-title no-margin-bottom mt10">Equipt Design</span>
-						</span>
-					</span>
-            </div><!-- /.column -->
+            @include('landing.section.work-item', [
+            	'mainImage'    => 'images/work/workana/main.png',
+            	'detailImage'  => 'images/work/workana/detail.png',
+            	'categoryId'   => 'web-application',
+            	'categoryName' => trans('landing.work.categories.web_application'),
+            	'priority'     => '1',
+            	'title'        => 'Workana',
+            	'link'         => 'https://www.workana.com/',
+            ])
 
             <!-- Item 2 -->
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 portfolio-box no-padding mix print identity" data-my-order="6">
-                <div class="portfolio-image-holder"><img src="images/work/2.jpg" alt="2" class="img-responsive portfolio-image"></div>
-                <span class="portfolio-badge badge">Print + Identity</span>
-                <span class="portfolio-hover">
-						<span>
-							<a href="https://dribbble.com/" target="_blank">
-								<span class="portfolio-links"><span class="ion-ios-arrow-right portfolio-links-icons"></span></span>
-							</a>
-							<a href="images/work/2.jpg" class="zoom" title="Goodman's Burger">
-								<span class="portfolio-links"><span class="ion-arrow-expand portfolio-links-icons"></span></span>
-							</a>
-							<span class="project-title no-margin-bottom mt10">Goodman's Burger</span>
-						</span>
-					</span>
-            </div><!-- /.column -->
+			@include('landing.section.work-item', [
+                'mainImage'    => 'images/work/pausa/main.png',
+                'detailImage'  => 'images/work/pausa/detail.png',
+                'categoryId'   => 'mobile-application',
+                'categoryName' => trans('landing.work.categories.mobile_application'),
+                'priority'     => '2',
+                'title'        => 'Pausa',
+                'link'         => 'https://play.google.com/store/apps/details?id=com.ionicframework.mindfulness924927',
+            ])
 
-            <!-- Item 3 -->
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 portfolio-box no-padding mix identity" data-my-order="4">
-                <div class="portfolio-image-holder"><img src="images/work/3.jpg" alt="3" class="img-responsive portfolio-image"></div>
-                <span class="portfolio-badge badge">Print</span>
-                <span class="portfolio-hover">
-						<span>
-							<a href="https://dribbble.com/" target="_blank">
-								<span class="portfolio-links"><span class="ion-ios-arrow-right portfolio-links-icons"></span></span>
-							</a>
-							<a href="images/work/3.jpg" class="zoom" title="Paper Mockup">
-								<span class="portfolio-links"><span class="ion-arrow-expand portfolio-links-icons"></span></span>
-							</a>
-							<span class="project-title no-margin-bottom mt10">Paper Mockup</span>
-						</span>
-					</span>
-            </div><!-- /.column -->
+			<!-- Item 3 -->
+			@include('landing.section.work-item', [
+				'mainImage'    => 'images/work/animaedu/main.png',
+				'detailImage'  => 'images/work/animaedu/detail.png',
+				'categoryId'   => 'web-application',
+				'categoryName' => trans('landing.work.categories.web_application'),
+				'priority'     => '3',
+				'title'        => 'AnimaEdu',
+				'link'         => 'https://animaedu.com/',
+			])
 
-            <!-- Item 4 -->
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 portfolio-box no-padding mix graphics" data-my-order="5">
-                <div class="portfolio-image-holder"><img src="images/work/4.jpg" alt="4" class="img-responsive portfolio-image"></div>
-                <span class="portfolio-badge badge">Graphics</span>
-                <span class="portfolio-hover">
-						<span>
-							<a href="https://dribbble.com/" target="_blank">
-								<span class="portfolio-links"><span class="ion-ios-arrow-right portfolio-links-icons"></span></span>
-							</a>
-							<a href="images/work/4.jpg" class="zoom" title="Simple Pleasure">
-								<span class="portfolio-links"><span class="ion-arrow-expand portfolio-links-icons"></span></span>
-							</a>
-							<span class="project-title no-margin-bottom mt10">Simple Pleasure</span>
-						</span>
-					</span>
-            </div><!-- /.column -->
-
-            <!-- Item 5 -->
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 portfolio-box no-padding mix print identity" data-my-order="2">
-                <div class="portfolio-image-holder"><img src="images/work/5.jpg" alt="5" class="img-responsive portfolio-image"></div>
-                <span class="portfolio-badge badge">Print + Identity</span>
-                <span class="portfolio-hover">
-						<span>
-							<a href="https://dribbble.com/" target="_blank">
-								<span class="portfolio-links"><span class="ion-ios-arrow-right portfolio-links-icons"></span></span>
-							</a>
-							<a href="images/work/5.jpg" class="zoom" title="Wine Bottles">
-								<span class="portfolio-links"><span class="ion-arrow-expand portfolio-links-icons"></span></span>
-							</a>
-							<span class="project-title no-margin-bottom mt10">Wine Bottles</span>
-						</span>
-					</span>
-            </div><!-- /.column -->
-
-            <!-- Item 6 -->
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 portfolio-box no-padding mix web" data-my-order="1">
-                <div class="portfolio-image-holder"><img src="images/work/6.jpg" alt="6" class="img-responsive portfolio-image"></div>
-                <span class="portfolio-badge badge">Web</span>
-                <span class="portfolio-hover">
-						<span>
-							<a href="https://dribbble.com/" target="_blank">
-								<span class="portfolio-links"><span class="ion-ios-arrow-right portfolio-links-icons"></span></span>
-							</a>
-							<a href="images/work/6.jpg" class="zoom" title="Web UI">
-								<span class="portfolio-links"><span class="ion-arrow-expand portfolio-links-icons"></span></span>
-							</a>
-							<span class="project-title no-margin-bottom mt10">Web UI</span>
-						</span>
-					</span>
-            </div><!-- /.column -->
-
-            <!-- Item 7 -->
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 portfolio-box no-padding mix graphics print" data-my-order="9">
-                <div class="portfolio-image-holder"><img src="images/work/7.jpg" alt="7" class="img-responsive portfolio-image"></div>
-                <span class="portfolio-badge badge">Graphics + Print</span>
-                <span class="portfolio-hover">
-						<span>
-							<a href="https://dribbble.com/" target="_blank">
-								<span class="portfolio-links"><span class="ion-ios-arrow-right portfolio-links-icons"></span></span>
-							</a>
-							<a href="images/work/7.jpg" class="zoom" title="Hello World">
-								<span class="portfolio-links"><span class="ion-arrow-expand portfolio-links-icons"></span></span>
-							</a>
-							<span class="project-title no-margin-bottom mt10">Hello World</span>
-						</span>
-					</span>
-            </div><!-- /.column -->
-
-            <!-- Item 8 -->
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 portfolio-box no-padding mix web" data-my-order="7">
-                <div class="portfolio-image-holder"><img src="images/work/8.jpg" alt="8" class="img-responsive portfolio-image"></div>
-                <span class="portfolio-badge badge">Web</span>
-                <span class="portfolio-hover">
-						<span>
-							<a href="https://dribbble.com/" target="_blank">
-								<span class="portfolio-links"><span class="ion-ios-arrow-right portfolio-links-icons"></span></span>
-							</a>
-							<a href="images/work/8.jpg" class="zoom" title="We Create Mobile">
-								<span class="portfolio-links"><span class="ion-arrow-expand portfolio-links-icons"></span></span>
-							</a>
-							<span class="project-title no-margin-bottom mt10">We Create Mobile</span>
-						</span>
-					</span>
-            </div><!-- /.column -->
-
-            <!-- Item 9 -->
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 portfolio-box no-padding mix web" data-my-order="8">
-                <div class="portfolio-image-holder"><img src="images/work/9.jpg" alt="9" class="img-responsive portfolio-image"></div>
-                <span class="portfolio-badge badge">Web</span>
-                <span class="portfolio-hover">
-						<span>
-							<a href="https://dribbble.com/" target="_blank">
-								<span class="portfolio-links"><span class="ion-ios-arrow-right portfolio-links-icons"></span></span>
-							</a>
-							<a href="images/work/9.jpg" class="zoom" title="Captain da Ship">
-								<span class="portfolio-links"><span class="ion-arrow-expand portfolio-links-icons"></span></span>
-							</a>
-							<span class="project-title no-margin-bottom mt10">Captain da Ship</span>
-						</span>
-					</span>
-            </div><!-- /.column -->
+			<!-- Item 4 -->
+			@include('landing.section.work-item', [
+				'mainImage'    => 'images/work/family-tree/main.png',
+				'detailImage'  => 'images/work/family-tree/detail.png',
+				'categoryId'   => 'web-application',
+				'categoryName' => trans('landing.work.categories.web_application'),
+				'priority'     => '4',
+				'title'        => 'Family Tree',
+			])
         </div><!-- /.row -->
     </div><!-- /.container -->
 </section><!-- /.section -->

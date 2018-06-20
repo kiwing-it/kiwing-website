@@ -34,35 +34,35 @@
             <div class="col-lg-7 col-sm-5 bottomReveal">
                 <h5 class="heading-1 mb20">Skills</h5>
                 <div class="progress">
-                    <div class="progress-bar text-left" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-                        Development
-                    </div>
-                </div>
-                <div class="progress">
-                    <div class="progress-bar text-left" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
-                        Design
-                    </div>
-                </div>
-                <div class="progress">
-                    <div class="progress-bar text-left" role="progressbar" aria-valuenow="57" aria-valuemin="0" aria-valuemax="100" style="width: 57%;">
-                        Photography
+                    <div class="progress-bar text-left" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
+                        Desarrollo Backend
                     </div>
                 </div>
                 <div class="progress">
                     <div class="progress-bar text-left" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
-                        Icon Design
+                        Desarrollo Frontend
                     </div>
                 </div>
                 <div class="progress">
-                    <div class="progress-bar text-left" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
-                        Audio
+                    <div class="progress-bar text-left" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
+                        Desarrollo Móvil
+                    </div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar text-left" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%;">
+                        Análisis y Diseño
+                    </div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar text-left" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                        Arquitectura
                     </div>
                 </div>
                 <div class="progress-meter mb30-xs">
-                    <div class="meter meter-left" style="width: 30%;"><span class="meter-text">Beginner</span></div>
-                    <div class="meter meter-left" style="width: 20%;"><span class="meter-text">Intermediate</span></div>
-                    <div class="meter meter-right" style="width: 20%;"><span class="meter-text">Pro</span></div>
-                    <div class="meter meter-right" style="width: 30%;"><span class="meter-text">Master</span></div>
+                    <div class="meter meter-left" style="width: 30%;"><span class="meter-text">Junior</span></div>
+                    <div class="meter meter-left" style="width: 40%;"><span class="meter-text">Semi-Senior</span></div>
+                    <div class="meter meter-right" style="width: 15%;"><span class="meter-text">Kiwi</span></div>
+                    <div class="meter meter-right" style="width: 15%;"><span class="meter-text">Senior</span></div>
                 </div>
             </div><!-- /.column -->
             <div class="col-lg-5 col-sm-7 mt10 rotateLeftReveal">

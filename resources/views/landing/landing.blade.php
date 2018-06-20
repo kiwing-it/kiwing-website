@@ -34,61 +34,15 @@
     <link href="css/magnific-popup.css" rel="stylesheet">
     <link href="css/logoiconfont.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet" title="main-css">
+    <link rel="alternate stylesheet" type="text/css" href="css/colors/blue.css" title="blue">
+    <link rel="alternate stylesheet" type="text/css" href="css/base-light.css" title="base-light">
 
     <!-- Custom Stylesheet -->
     <link href="css/kiwing.css" rel="stylesheet">
-
-    @if(env('APP_ENV') === 'dev')
-        <!-- Style Switcher / remove for production -->
-        <link href="css/style-switcher.css" rel="stylesheet">
-    @endif
-    
-<!-- Alternate Stylesheets / choose what color and base you want and include the 2 files regularly AFTER style.css above -->
-    <link rel="alternate stylesheet" type="text/css" href="css/colors/blue.css" title="blue">
-    <link rel="alternate stylesheet" type="text/css" href="css/colors/green.css" title="green">
-    <link rel="alternate stylesheet" type="text/css" href="css/colors/orange.css" title="orange">
-    <link rel="alternate stylesheet" type="text/css" href="css/colors/red.css" title="red">
-    <link rel="alternate stylesheet" type="text/css" href="css/colors/orangelight.css" title="orangelight">
-    <link rel="alternate stylesheet" type="text/css" href="css/colors/pinkish.css" title="pinkish">
-    <link rel="alternate stylesheet" type="text/css" href="css/colors/seagul.css" title="seagul">
-    <link rel="alternate stylesheet" type="text/css" href="css/base-light.css" title="base-light">
 </head>
 <body class="royal_preloader" data-spy="scroll" data-target=".navbar" data-offset="70">
     <div id="royal_preloader"></div>
-    
-    @if(env('APP_ENV') === 'dev')
-        <!-- Start Switcher / Remove for production -->
-        <div class="demo_changer">
-            <div class="demo-icon">
-                <i class="pe-7s-settings"></i>
-            </div><!-- end opener icon -->
-            <div class="form_holder">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <div class="predefined_styles">
-                            <h4>Base</h4>
-                            <a href="" data-rel="main-css" class="styleswitch2"><div class="btn dark-css-square"></div></a>
-                            <a href="" data-rel="base-light" class="styleswitch2"><div class="btn light-css-square"></div></a>
-    
-                            <hr>
-    
-                            <h4>Colors</h4>
-                            <a href="" data-rel="main-css" class="styleswitch"><div class="btn purple-css-square"></div></a>
-                            <a href="" data-rel="blue" class="styleswitch"><div class="btn blue-css-square"></div></a>
-                            <a href="" data-rel="green" class="styleswitch"><div class="btn green-css-square"></div></a>
-                            <a href="" data-rel="orange" class="styleswitch"><div class="btn orange-css-square"></div></a>
-                            <a href="" data-rel="red" class="styleswitch"><div class="btn red-css-square"></div></a>
-                            <a href="" data-rel="orangelight" class="styleswitch"><div class="btn orangelight-css-square"></div></a>
-                            <a href="" data-rel="seagul" class="styleswitch"><div class="btn seagul-css-square"></div></a>
-                            <a href="" data-rel="pinkish" class="styleswitch"><div class="btn pinkish-css-square"></div></a>
-                        </div><!-- /.end predefined_styles -->
-                    </div><!-- /.end col -->
-                </div><!-- /.end row -->
-            </div><!-- /.end form_holder -->
-        </div><!-- /.end demo_changer -->
-        <!-- End Switcher / Remove for production -->
-    @endif
-    
+
     @include('landing.common.header')
     
     @include('landing.section.home')
@@ -100,13 +54,9 @@
     @include('landing.section.about')
 
     @include('landing.section.ourcount')
-    
-    @include('landing.section.profile')
-    
+
     @include('landing.section.work')
-    
-    @include('landing.section.timeline')
-    
+
     @include('landing.section.team')
     
     <!-- Begin Pricing -->
@@ -180,11 +130,6 @@
     </script>
     <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
     <script type="text/javascript" src="js/scrollreveal.min.js"></script>
-    
-    @if(env('APP_ENV') === 'dev')
-        <script type="text/javascript" src="js/style-switcher.js"></script><!-- Remove for production -->
-    @endif
-    
     <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>

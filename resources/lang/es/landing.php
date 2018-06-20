@@ -34,13 +34,13 @@ return [
                 ],
                 'second' => [
                     'title_top_part'    => 'Comunicación',
-                    'title_bottom_part' => 'Efectiva',
-                    'description'       => 'Somos seres sociales y vivimos en constante relación con los demás. Mantener procesos claros de comunicación es uno de nuestros principales pilares.',
+                    'title_bottom_part' => 'Directa',
+                    'description'       => 'Somos seres sociales y vivimos en constante relación con los demás. Mantener comunicación directa y clara es uno de nuestros principales pilares.',
                 ],
                 'third' => [
                     'title_top_part'    => 'Capacitación',
                     'title_bottom_part' => 'Continua',
-                    'description'       => 'Los cambios sociales, tecnológicos y económicos adoptan una forma exponencial. Esta sintonía constante con lo nuevo es lo que hace divertido nuestro trabajo.',
+                    'description'       => 'Los cambios sociales, tecnológicos y económicos adoptan una forma exponencial. Estar en sintonía constante con lo nuevo es la parte más entretenida.',
                 ],
             ],
         ],
@@ -66,51 +66,57 @@ return [
 
     'services' => [
         'first' => [
-            'name' => '1. Mobile Applications',
-            'short_description' => '(híbridas y nativas) Lorem ipsum dolor sit amet, consectet adipiscing elit. Cras est urna, imperd eget sem at',
+            'name' => '1. Aplicaciones Móviles',
+            'short_description' => 'Mobile Applications (híbridas y nativas) sit amet, consectet adipiscing elit. Cras est urna, imperd eget sem at',
             'modal' => [
-                'title' => 'Mobile Applications',
-                'trigger' => 'Más info',
+                'title'       => 'Aplicaciones Móviles',
+                'description' => '',
+                'trigger'     => 'Más info',
             ],
         ],
         'second' => [
-            'name' => '2. Web Applications',
-            'short_description' => 'Lorem ipsum dolor sit amet, consectet adipiscing elit. Cras est urna, imperd eget sem at, pellentes que cursus elit.',
+            'name' => '2. Aplicaciones Web',
+            'short_description' => 'Web Applications sit amet, consectet adipiscing elit. Cras est urna, imperd eget sem at, pellentes que cursus elit.',
             'modal' => [
-                'title' => 'Mobile Applications',
-                'trigger' => 'Más info',
+                'title'       => 'Aplicaciones Web',
+                'description' => '',
+                'trigger'     => 'Más info',
             ],
         ],
         'third' => [
-            'name' => '3. Web Services',
-            'short_description' => 'Lorem ipsum dolor sit amet, consectet adipiscing elit. Cras est urna, imperd eget sem at, pellentes que cursus elit.',
+            'name' => '3. Servicios Web',
+            'short_description' => 'Web Services sit amet, consectet adipiscing elit. Cras est urna, imperd eget sem at, pellentes que cursus elit.',
             'modal' => [
-                'title' => 'Mobile Applications',
-                'trigger' => 'Más info',
+                'title'       => 'Servicios Web',
+                'description' => '',
+                'trigger'     => 'Más info',
             ],
         ],
         'fourth' => [
-            'name' => '4. Full Life-Cycle',
-            'short_description' => 'Lorem ipsum dolor sit amet, consectet adipiscing elit. Cras est urna, imperd eget sem at, pellentes que cursus elit.',
+            'name' => '4. Ciclo de Vida Completo',
+            'short_description' => 'Full Life-Cycle sit amet, consectet adipiscing elit. Cras est urna, imperd eget sem at, pellentes que cursus elit.',
             'modal' => [
-                'title' => 'Mobile Applications',
-                'trigger' => 'Más info',
+                'title'       => 'Ciclo de Vida Completo',
+                'description' => '',
+                'trigger'     => 'Más info',
             ],
         ],
         'fifth' => [
             'name' => '5. Consultoría',
             'short_description' => 'Lorem ipsum dolor sit amet, consectet adipiscing elit. Cras est urna, imperd eget sem at, pellentes que cursus elit.',
             'modal' => [
-                'title' => 'Mobile Applications',
-                'trigger' => 'Más info',
+                'title'       => 'Consultoría',
+                'description' => '',
+                'trigger'     => 'Más info',
             ],
         ],
         'sixth' => [
-            'name' => '6. Equipos dedicados',
+            'name' => '6. Equipos Dedicados',
             'short_description' => 'Lorem ipsum dolor sit amet, consectet adipiscing elit. Cras est urna, imperd eget sem at, pellentes que cursus elit.',
             'modal' => [
-                'title' => 'Mobile Applications',
-                'trigger' => 'Más info',
+                'title'       => 'Equipos Dedicados',
+                'description' => '',
+                'trigger'     => 'Más info',
             ],
         ],
     ],
@@ -120,7 +126,19 @@ return [
     ],
 
     'work' => [
-        '' => '',
+        'title' => 'Principales trabajos',
+        'subtitle' => 'We do awesome stuff, and yeah.',
+        'categories' => [
+            'all' => 'Todos',
+            'web_application'     => 'Aplicación Web',
+            'mobile_application'  => 'Aplicación Móvil',
+            'progressive_web_app' => 'Progressive Web App',
+        ],
+        'items' => [
+            [
+                '' => '',
+            ],
+        ],
     ],
 
     'team' => [
