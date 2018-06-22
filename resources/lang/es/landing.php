@@ -126,8 +126,8 @@ return [
     ],
 
     'work' => [
-        'title' => 'Principales trabajos',
-        'subtitle' => 'We do awesome stuff, and yeah.',
+        'title' => 'Trabajos recientes',
+        'subtitle' => 'Estos son algunos proyectos en los que hemos estado trabajando últimamente.',
         'categories' => [
             'all' => 'Todos',
             'web_application'     => 'Aplicación Web',
@@ -135,8 +135,21 @@ return [
             'progressive_web_app' => 'Progressive Web App',
         ],
         'items' => [
-            [
-                '' => '',
+            'workana' => [
+                'title' => 'Workana',
+            	'description' => 'La primera red de trabajo remoto e independiente de Latinoamérica.',
+            ],
+            'pausa' => [
+                'title' => 'Pausa',
+                'description' => 'Pausa es la app más completa para aprender a meditar e incorporar el mindfulness a tu vida.'
+            ],
+            'animaedu' => [
+                'title' => 'AnimaEdu',
+                'description' => 'AnimaEdu es un marketplace de cursos en video para desarrollo personal.',
+            ],
+            'family_tree' => [
+                'title' => 'Árboles Genealógicos',
+                'description' => 'Aplicación de árboles genealógicos con inferencia de relaciones de parentesco no triviales, fusiones y combinaciones de árboles, o consultas lógicas sobre grandes cantidades de nodos. Se utilizó una base de datos orientada a grafos llamada Neo4j.',
             ],
         ],
     ],

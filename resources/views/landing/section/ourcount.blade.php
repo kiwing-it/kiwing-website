@@ -13,22 +13,22 @@
                 <div class="circle-hold">
                     <i class="ion-coffee"></i>
                 </div>
-                <h2 class="timer mb5" data-from="1" data-to="4321" data-refresh-interval="20">1</h2>
-                <p class="no-margin">Cups of coffee</p>
+                <h2 class="timer mb5" data-from="1" data-to="63" data-refresh-interval="10">1</h2>
+                <p class="no-margin">Proyectos finalizados</p>
             </div><!-- /.column -->
             <div class="col-sm-6 col-md-3 item mt30-xs rightReveal">
                 <div class="circle-hold">
                     <i class="ion-code"></i>
                 </div>
-                <h2 class="timer mb5" data-from="1" data-to="15381" data-refresh-interval="20">1</h2>
-                <p class="no-margin">Lines of code</p>
+                <h2 class="timer mb5" data-from="1" data-to="2233090" data-refresh-interval="2000">1</h2>
+                <p class="no-margin">Líneas de código</p>
             </div><!-- /.column -->
             <div class="col-sm-6 col-md-3 item mt30-xs mt30-sm leftReveal">
                 <div class="circle-hold">
                     <i class="ion-android-people"></i>
                 </div>
-                <h2 class="timer mb5" data-from="1" data-to="17" data-refresh-interval="20">1</h2>
-                <p class="no-margin">Employees</p>
+                <h2 class="timer mb5" data-from="1" data-to="24" data-refresh-interval="7">1</h2>
+                <p class="no-margin">Clientes satisfechos</p>
             </div><!-- /.column -->
             <div class="col-sm-6 col-md-3 item mt30-xs mt30-sm rightReveal">
                 <div class="circle-hold">

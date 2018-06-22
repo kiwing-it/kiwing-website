@@ -16,3 +16,7 @@ header a.navbar-brand img {
     font-weight: 300;
     font-size: 2rem;
 }
+
+.mfp-bottom-bar {
+    font-weight: bold;
+}

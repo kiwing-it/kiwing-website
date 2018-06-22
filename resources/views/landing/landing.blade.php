@@ -21,9 +21,11 @@
     <script type="text/javascript" src="js/royal_preloader.min.js"></script>
     <script type="text/javascript">
         Royal_Preloader.config({
-            mode:           'number',
-            showProgress:   false,
-            background:     '#1d1d1d'
+            mode: 'logo',
+            logo: 'images/kiwing-bird.png',
+            text_colour: '#205E89',
+            showProgress: false,
+            background: "#FFFFFF"
         });
     </script>
 
@@ -34,8 +36,8 @@
     <link href="css/magnific-popup.css" rel="stylesheet">
     <link href="css/logoiconfont.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet" title="main-css">
-    <link rel="alternate stylesheet" type="text/css" href="css/colors/blue.css" title="blue">
-    <link rel="alternate stylesheet" type="text/css" href="css/base-light.css" title="base-light">
+    <link href="css/colors/blue.css" rel="stylesheet">
+    <link href="css/base-light.css" rel="stylesheet">
 
     <!-- Custom Stylesheet -->
     <link href="css/kiwing.css" rel="stylesheet">
@@ -56,31 +58,6 @@
     @include('landing.section.ourcount')
 
     @include('landing.section.work')
-
-    @include('landing.section.team')
-    
-    <!-- Begin Pricing -->
-    <section class="background1 section-padding">
-        <div class="container">
-            <div class="row mb30">
-                <div class="col-lg-6 col-lg-offset-3 section-title text-center">
-                    <h2>Pricing</h2>
-                    <span class="section-divider mb15"></span>
-                    <p class="no-margin">We offer extremely competitive prices for all products.</p>
-                </div><!-- /.column -->
-            </div><!-- /.row -->
-            <div class="row mb50">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="heading-3 mt10 scaleReveal">Some of Our Clients</h2>
-                    <img src="images/logos/coca.png" alt="Client 1" class="img-responsive pricing-clients mr15 topReveal">
-                    <img src="images/logos/ebay.png" alt="Client 2" class="img-responsive pricing-clients mr15 bottomReveal">
-                    <img src="images/logos/microsoft.png" alt="Client 3" class="img-responsive pricing-clients mr15 topReveal">
-                    <img src="images/logos/pepsi.png" alt="Client 4" class="img-responsive pricing-clients bottomReveal">
-                </div><!-- /.column -->
-            </div><!-- /.row -->
-        </div><!-- /.container -->
-    </section><!-- /.section -->
-    <!-- End Pricing -->
     
     @include('landing.section.contact')
     
@@ -97,18 +74,47 @@
         /* ---- Google Maps ---- */
         function initMap() {
             var mapOptions = {
-                zoom: 15,
+                zoom: 4,
                 zoomControl: false,
                 scaleControl: false,
                 scrollwheel: false,
                 disableDoubleClickZoom: true,
-                center: new google.maps.LatLng(40.6700, -73.9400), // Cordoba
-                styles: [{"featureType":"landscape","stylers":[{"saturation":-100},{"lightness":65},{"visibility":"on"}]},{"featureType":"poi","stylers":[{"saturation":-100},{"lightness":51},{"visibility":"simplified"}]},{"featureType":"road.highway","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featureType":"road.arterial","stylers":[{"saturation":-100},{"lightness":30},{"visibility":"on"}]},{"featureType":"road.local","stylers":[{"saturation":-100},{"lightness":40},{"visibility":"on"}]},{"featureType":"transit","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featureType":"administrative.province","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"labels","stylers":[{"visibility":"on"},{"lightness":-25},{"saturation":-100}]},{"featureType":"water","elementType":"geometry","stylers":[{"hue":"#ffff00"},{"lightness":-25},{"saturation":-97}]}]
+                center: new google.maps.LatLng(-31.4200, -64.1880), // Cordoba
+                styles: [{
+                    "featureType": "landscape",
+                    "stylers": [{"saturation": -100}, {"lightness": 65}, {"visibility": "on"}]
+                }, {
+                    "featureType": "poi",
+                    "stylers": [{"saturation": -100}, {"lightness": 51}, {"visibility": "simplified"}]
+                }, {
+                    "featureType": "road.highway",
+                    "stylers": [{"saturation": -100}, {"visibility": "simplified"}]
+                }, {
+                    "featureType": "road.arterial",
+                    "stylers": [{"saturation": -100}, {"lightness": 30}, {"visibility": "on"}]
+                }, {
+                    "featureType": "road.local",
+                    "stylers": [{"saturation": -100}, {"lightness": 40}, {"visibility": "on"}]
+                }, {
+                    "featureType": "transit",
+                    "stylers": [{"saturation": -100}, {"visibility": "simplified"}]
+                }, {
+                    "featureType": "administrative.province",
+                    "stylers": [{"visibility": "off"}]
+                }, {
+                    "featureType": "water",
+                    "elementType": "labels",
+                    "stylers": [{"visibility": "on"}, {"lightness": -25}, {"saturation": -100}]
+                }, {
+                    "featureType": "water",
+                    "elementType": "geometry",
+                    "stylers": [{"hue": "#ffff00"}, {"lightness": -25}, {"saturation": -97}]
+                }]
             };
             var mapElement = document.getElementById('map');
             var map = new google.maps.Map(mapElement, mapOptions);
             var marker = new google.maps.Marker({
-                position: new google.maps.LatLng(40.6700, -73.9400),
+                position: new google.maps.LatLng(-31.4200, -64.1880),
                 map: map,
                 title: 'Our Office!'
             });

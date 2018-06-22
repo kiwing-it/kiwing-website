@@ -72,18 +72,34 @@
                         <li data-target="#about-carousel" data-slide-to="0" class="active"></li>
                         <li data-target="#about-carousel" data-slide-to="1"></li>
                         <li data-target="#about-carousel" data-slide-to="2"></li>
+                        <li data-target="#about-carousel" data-slide-to="3"></li>
+                        <li data-target="#about-carousel" data-slide-to="4"></li>
+                        <li data-target="#about-carousel" data-slide-to="5"></li>
+                        <li data-target="#about-carousel" data-slide-to="6"></li>
                     </ol>
 
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner" role="listbox">
+                        <div class="item">
+                            <img src="images/about/backend.jpg" alt="..." class="img-responsive">
+                        </div>
+                        <div class="item">
+                            <img src="images/about/sql.jpg" alt="..." class="img-responsive">
+                        </div>
+                        <div class="item">
+                            <img src="images/about/nosql.png" alt="..." class="img-responsive">
+                        </div>
+                        <div class="item">
+                            <img src="images/about/frontend-1.png" alt="..." class="img-responsive">
+                        </div>
+                        <div class="item">
+                            <img src="images/about/frontend-2.png" alt="..." class="img-responsive">
+                        </div>
+                        <div class="item">
+                            <img src="images/about/mobile.jpg" alt="..." class="img-responsive">
+                        </div>
                         <div class="item active">
-                            <img src="images/placeholder.png" alt="..." class="img-responsive">
-                        </div>
-                        <div class="item">
-                            <img src="images/placeholder2.png" alt="..." class="img-responsive">
-                        </div>
-                        <div class="item">
-                            <img src="images/placeholder3.png" alt="..." class="img-responsive">
+                            <img src="images/about/architecture.jpg" alt="..." class="img-responsive">
                         </div>
                     </div>
                 </div>

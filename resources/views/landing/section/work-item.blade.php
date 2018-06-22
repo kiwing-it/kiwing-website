@@ -14,7 +14,7 @@
                     </span>
                 </a>
             @endif
-            <a href="{{ $detailImage }}" class="zoom" title="{{ $title }}">
+            <a href="{{ $detailImage }}" class="zoom" title="{{ $description }}">
                 <span class="portfolio-links">
                     <span class="ion-arrow-expand portfolio-links-icons"></span>
                 </span>

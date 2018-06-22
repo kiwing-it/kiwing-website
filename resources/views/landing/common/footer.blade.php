@@ -24,7 +24,9 @@
         <div class="row">
             <div class="col-sm-8 col-sm-offset-2 text-small text-center">
                 <hr>
-                <button type="button" class="btn btn-primary btn-up-footer btn-lg scroll-top">{{ trans('landing.footer.up') }}</button>
+                <button type="button" class="btn btn-primary btn-up-footer btn-lg scroll-top">
+                    {{ trans('landing.footer.up') }}
+                </button>
                 <p class="no-margin">{{ trans('landing.footer.all_rights_reserved') }}</p>
             </div><!-- /.column -->
         </div><!-- /.row -->

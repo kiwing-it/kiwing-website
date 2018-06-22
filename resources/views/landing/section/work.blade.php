@@ -41,7 +41,8 @@
             	'categoryId'   => 'web-application',
             	'categoryName' => trans('landing.work.categories.web_application'),
             	'priority'     => '1',
-            	'title'        => 'Workana',
+            	'title'        => trans('landing.work.items.workana.title'),
+            	'description'  => trans('landing.work.items.workana.description'),
             	'link'         => 'https://www.workana.com/',
             ])
 
@@ -52,7 +53,8 @@
                 'categoryId'   => 'mobile-application',
                 'categoryName' => trans('landing.work.categories.mobile_application'),
                 'priority'     => '2',
-                'title'        => 'Pausa',
+                'title'        => trans('landing.work.items.pausa.title'),
+            	'description'  => trans('landing.work.items.pausa.description'),
                 'link'         => 'https://play.google.com/store/apps/details?id=com.ionicframework.mindfulness924927',
             ])
 
@@ -63,7 +65,8 @@
 				'categoryId'   => 'web-application',
 				'categoryName' => trans('landing.work.categories.web_application'),
 				'priority'     => '3',
-				'title'        => 'AnimaEdu',
+				'title'        => trans('landing.work.items.animaedu.title'),
+            	'description'  => trans('landing.work.items.animaedu.description'),
 				'link'         => 'https://animaedu.com/',
 			])
 
@@ -74,7 +77,8 @@
 				'categoryId'   => 'web-application',
 				'categoryName' => trans('landing.work.categories.web_application'),
 				'priority'     => '4',
-				'title'        => 'Family Tree',
+				'title'        => trans('landing.work.items.family_tree.title'),
+            	'description'  => trans('landing.work.items.family_tree.description'),
 			])
         </div><!-- /.row -->
     </div><!-- /.container -->
