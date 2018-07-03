@@ -34,6 +34,7 @@
             </div><!-- /.column -->
         </div><!-- /.row -->
         <div id="thework">
+
             <!-- Item 1 -->
             @include('landing.section.work-item', [
             	'mainImage'    => 'images/work/workana/main.png',
@@ -80,6 +81,7 @@
 				'title'        => trans('landing.work.items.family_tree.title'),
             	'description'  => trans('landing.work.items.family_tree.description'),
 			])
+
         </div><!-- /.row -->
     </div><!-- /.container -->
 </section><!-- /.section -->

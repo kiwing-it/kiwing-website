@@ -3,39 +3,39 @@
     <div class="container">
         <div class="row mb30">
             <div class="section-title col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3 text-center">
-                <h2>The Count</h2>
+                <h2>{{ trans('landing.ourcount.title') }}</h2>
                 <span class="section-divider mb15"></span>
-                <p class="no-margin">We have spent various amounts of time on activities. Oh and we like coffee and free time as well.</p>
+                <p class="no-margin">{{ trans('landing.ourcount.subtitle') }}</p>
             </div><!-- /.column -->
         </div><!-- /.row -->
         <div class="row">
             <div class="col-sm-6 col-md-3 item leftReveal">
                 <div class="circle-hold">
-                    <i class="ion-coffee"></i>
+                    <i class="ion-ios-world"></i>
                 </div>
-                <h2 class="timer mb5" data-from="1" data-to="63" data-refresh-interval="10">1</h2>
-                <p class="no-margin">Proyectos finalizados</p>
+                <h2 class="timer mb5" data-from="1" data-to="3" data-refresh-interval="60">1</h2>
+                <p class="no-margin">{{ trans('landing.ourcount.items.first') }}</p>
             </div><!-- /.column -->
             <div class="col-sm-6 col-md-3 item mt30-xs rightReveal">
                 <div class="circle-hold">
-                    <i class="ion-code"></i>
+                    <i class="ion-happy"></i>
                 </div>
-                <h2 class="timer mb5" data-from="1" data-to="2233090" data-refresh-interval="2000">1</h2>
-                <p class="no-margin">Líneas de código</p>
+                <h2 class="timer mb5" data-from="1" data-to="24" data-refresh-interval="80">1</h2>
+                <p class="no-margin">{{ trans('landing.ourcount.items.second') }}</p>
             </div><!-- /.column -->
             <div class="col-sm-6 col-md-3 item mt30-xs mt30-sm leftReveal">
                 <div class="circle-hold">
-                    <i class="ion-android-people"></i>
+                    <i class="ion-ribbon-a"></i>
                 </div>
-                <h2 class="timer mb5" data-from="1" data-to="24" data-refresh-interval="7">1</h2>
-                <p class="no-margin">Clientes satisfechos</p>
+                <h2 class="timer mb5" data-from="1" data-to="63" data-refresh-interval="20">1</h2>
+                <p class="no-margin">{{ trans('landing.ourcount.items.third') }}</p>
             </div><!-- /.column -->
             <div class="col-sm-6 col-md-3 item mt30-xs mt30-sm rightReveal">
                 <div class="circle-hold">
-                    <i class="ion-android-restaurant"></i>
+                    <i class="ion-code"></i>
                 </div>
-                <h2 class="timer mb5" data-from="1" data-to="921" data-refresh-interval="20">1</h2>
-                <p class="no-margin">Pizzas eaten</p>
+                <h2 class="timer mb5" data-from="1" data-to="7233098" data-refresh-interval="40">1</h2>
+                <p class="no-margin">{{ trans('landing.ourcount.items.fourth') }}</p>
             </div><!-- /.column -->
         </div><!-- /.row -->
     </div><!-- /.container -->

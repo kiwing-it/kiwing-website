@@ -27,7 +27,7 @@
                 <button type="button" class="btn btn-primary btn-up-footer btn-lg scroll-top">
                     {{ trans('landing.footer.up') }}
                 </button>
-                <p class="no-margin">{{ trans('landing.footer.all_rights_reserved') }}</p>
+                <p class="no-margin">{{ trans('landing.footer.all_rights_reserved', ['year' => date('Y')]) }}</p>
             </div><!-- /.column -->
         </div><!-- /.row -->
     </div><!-- /.container -->

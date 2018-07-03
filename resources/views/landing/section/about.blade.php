@@ -76,11 +76,12 @@
                         <li data-target="#about-carousel" data-slide-to="4"></li>
                         <li data-target="#about-carousel" data-slide-to="5"></li>
                         <li data-target="#about-carousel" data-slide-to="6"></li>
+                        <li data-target="#about-carousel" data-slide-to="7"></li>
                     </ol>
 
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner" role="listbox">
-                        <div class="item">
+                        <div class="item active">
                             <img src="images/about/backend.jpg" alt="..." class="img-responsive">
                         </div>
                         <div class="item">
@@ -96,9 +97,12 @@
                             <img src="images/about/frontend-2.png" alt="..." class="img-responsive">
                         </div>
                         <div class="item">
-                            <img src="images/about/mobile.jpg" alt="..." class="img-responsive">
+                            <img src="images/about/mobile-1.jpg" alt="..." class="img-responsive">
                         </div>
-                        <div class="item active">
+                        <div class="item">
+                            <img src="images/about/mobile-2.png" alt="..." class="img-responsive">
+                        </div>
+                        <div class="item">
                             <img src="images/about/architecture.jpg" alt="..." class="img-responsive">
                         </div>
                     </div>

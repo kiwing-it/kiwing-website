@@ -11,6 +11,5 @@
 |
 */
 
-Route::get('/', function () {
-    return view('landing.landing');
-});
+Route::get('/', 'PagesController@home')->name('home');
+Route::get('/locale/{locale}', 'PagesController@locale')->name('locale');

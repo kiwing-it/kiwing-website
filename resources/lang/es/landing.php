@@ -125,6 +125,17 @@ return [
         '' => '',
     ],
 
+    'ourcount' => [
+        'title' => 'Números importantes',
+        'subtitle' => 'Aquí presentamos algunos recuentos que destacan nuestra trayectoria en forma sintética.',
+        'items' => [
+            'first'  => 'Productos internacionales',
+            'second' => 'Clientes satisfechos',
+            'third'  => 'Proyectos finalizados',
+            'fourth' => 'Líneas de código',
+        ],
+    ],
+
     'work' => [
         'title' => 'Trabajos recientes',
         'subtitle' => 'Estos son algunos proyectos en los que hemos estado trabajando últimamente.',
@@ -160,7 +171,12 @@ return [
 
     'contact' => [
         'title'    => 'Contacto',
-        'subtitle' => 'Déjenos su consulta, en la brevedad un miembro de nuestro staff lo contactará.',
+        'subtitle' => 'Déjenos su consulta, en la brevedad lo contactaremos.',
+        'form' => [
+            'title'       => 'Consúltenos',
+            'subtitle'    => 'Le brindaremos atención personalizada',
+            'description' => 'Un miembro de nuestro equipo de asesores especializados lo contactará para escuchar sus necesidades y ayudarlo a encontrar la mejor solución para su negocio.',
+        ],
         'placeholder' => [
             'subject' => 'Asunto *',
             'phone'   => 'Teléfono',
@@ -178,7 +194,7 @@ return [
 
     'footer' => [
         'up' => 'Up',
-        'all_rights_reserved' => '&copy; 2018 Kiwing IT Labs. Todos los derechos reservados.',
+        'all_rights_reserved' => '&copy; :year Kiwing IT Labs. Todos los derechos reservados.',
     ],
     
 ];

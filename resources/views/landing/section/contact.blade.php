@@ -10,9 +10,9 @@
         </div><!-- /.row -->
         <div class="row">
             <div class="col-sm-5 col-lg-4">
-                <h5 class="heading-1 mb20">Visit Us</h5>
-                <h4 class="mb15">142 Pelican Drive • 1252nd Floor, Suite 420<br>New York City, New York 99912</h4>
-                <p class="no-margin text-xs-small">Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates. Temporibus autem quibusdam et aut.</p>
+                <h5 class="heading-1 mb20">{{ trans('landing.contact.form.title') }}</h5>
+                <h4 class="mb15">{{ trans('landing.contact.form.subtitle') }}</h4>
+                <p class="no-margin text-xs-small">{{ trans('landing.contact.form.description') }}</p>
                 <hr class="mini-hr">
                 <p class="text-xs-small mb5"><strong class="text-switch">Email:</strong> sales@kiwing.it</p>
                 <p class="text-xs-small mb5"><strong class="text-switch">Phone:</strong> +9 54 3564 664864</p>
