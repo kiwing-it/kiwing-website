@@ -54,7 +54,7 @@
                     </div>
                 </div>
                 <div class="progress">
-                    <div class="progress-bar text-left" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                    <div class="progress-bar text-left" role="progressbar" aria-valuenow="97" aria-valuemin="0" aria-valuemax="100" style="width: 97%;">
                         {{ trans('landing.about.skills.fifth') }}
                     </div>
                 </div>

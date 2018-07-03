@@ -6,7 +6,7 @@ return [
         'home'     => 'Home',
         'ideology' => 'Ideology',
         'services' => 'Services',
-        'about'    => 'About',
+        'about'    => 'Company',
         'work'     => 'Work',
         'team'     => 'Team',
         'contact'  => 'Contact',
@@ -123,27 +123,32 @@ return [
     ],
 
     'about' => [
-        'title' => 'Empresa',
+        'title' => 'Company',
         'boxes' => [
             'first'  => [
-                'title'       => 'Our trade',
-                'subtitle'    => 'Designing, Developing, and <br>Innovating for people like you...',
-                'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec tristiq enim. Integer eu <strong>neque</strong> arcu. Aenean sed odio nibh. Cras imperdiet, arcu eget dictum vestibulum elit.',
+                'title'       => 'Filosofía',
+                'subtitle'    => 'Pasión, creatividad y conocimiento...',
+                'description' => 'Tenemos una gran pasión por lo que hacemos, es nuestro estilo de vida. Para nosotros el desarrollo de Software de alta calidad 
+                                  es un proceso creativo que requiere de conocimientos avanzados sobre los diferentes actores que lo conforman.',
             ],
             'second' => [
-                'title'       => 'How we started it',
+                'title'       => '¿Quiénes somos?',
                 'description' => [
-                    'p1' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras est urna, imperdiet eget sem at, pellentesque cursus elit. Etiam id ante et elit interdum sollicitudin. Cras imperdiet, arcu eget dictum vestibulum elit.',
-                    'p2' => 'Curabitur egestas interdum ex, sed commodo ipsum consectetur vitae. Nulla auctor ante erat. Class aptent taciti sociosqu nostra enean sed.',
+                    'p1' => 'Somos un grupo de ingenieros y estudiantes avanzados de Ingeniería de Sistemas de Información. Nuestra orientación hacia las 
+                             Ciencias de la Computación hace que estemos altamente calificados y especializados en diferentes ámbitos. Tenemos como prioridad 
+                             satisfacer necesidades a través de la entrega temprana y continua de Software de calidad.',
+                    'p2' => 'Creemos en la tecnología como solución definitiva para mejorar la calidad de vida del hombre, haciéndolo más eficiente y eficaz 
+                             en su día a día.',
                 ],
             ],
             'third'  => [
-                'title'       => 'Why?',
-                'description' => 'Lorem ipsum dolor sit amet, consectetur adipicing elit. tristique enim. Integer euef neque arcu. Aenean sed odio nibh. <strong>Cras imperdiet</strong>, arcu eget dictum vestibulumizor. Lorem ipsil dolor sit amet, consectetur adipiscing elit.',
+                'title'       => '¿Por qué elegirnos?',
+                'description' => 'Porque aquí encontrará un equipo de excelentes desarrolladores, pero por sobretodo grandes personas que sienten una profunda 
+                                  pasión por lo que hacen.',
             ],
             'fourth' => [
-                'title'       => 'Quote',
-                'description' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus quibusdam.',
+                'title'       => 'Lema',
+                'description' => 'Diseño, desarrollo e innovación para cambiar de forma positiva la realidad de nuestros clientes',
             ],
         ],
         'skills' => [
