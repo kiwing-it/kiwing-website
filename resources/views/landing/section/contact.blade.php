@@ -15,7 +15,7 @@
                 <p class="no-margin text-xs-small">{{ trans('landing.contact.form.description') }}</p>
                 <hr class="mini-hr">
                 <p class="text-xs-small mb5"><strong class="text-switch">Email:</strong> sales@kiwing.it</p>
-                <p class="text-xs-small mb5"><strong class="text-switch">Phone:</strong> +9 54 3564 664864</p>
+                <p class="text-xs-small mb5"><strong class="text-switch">{{ trans('landing.contact.placeholder.phone') }}:</strong> +9 54 3564 664864</p>
             </div><!-- /.column -->
             <div class="col-sm-6 col-lg-7 mt30-xs">
                 <form data-toggle="validator" id="contactForm" name="contactForm">

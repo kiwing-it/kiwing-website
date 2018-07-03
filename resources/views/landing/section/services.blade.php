@@ -3,7 +3,7 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12 section-title text-center">
-                <h2>Services</h2>
+                <h2>{{ trans('landing.services.title') }}</h2>
                 <span class="section-divider"></span>
             </div><!-- /.column -->
         </div><!-- /.row -->
@@ -14,7 +14,7 @@
             @include('landing.section.service-item', [
                 'name'             => 'landing.services.first.name',
                 'shortDescription' => 'landing.services.first.short_description',
-                'icon'             => 'pe-7s-airplay',
+                'icon'             => 'pe-7s-monitor',
                 'itemSizeClasses'  => 'col-xs-12 col-sm-6 col-md-4 col-lg-4',
                 'position'         => 'leftReveal',
                 'showModal'        => false,
@@ -42,7 +42,7 @@
             @include('landing.section.service-item', [
                 'name'             => 'landing.services.third.name',
                 'shortDescription' => 'landing.services.third.short_description',
-                'icon'             => 'pe-7s-camera',
+                'icon'             => 'pe-7s-refresh-2',
                 'itemSizeClasses'  => 'col-xs-12 col-sm-6 col-md-4 col-lg-4 mt30-sm mt30-xs',
                 'position'         => 'rightReveal',
                 'showModal'        => false,
@@ -56,7 +56,7 @@
             @include('landing.section.service-item', [
                 'name'             => 'landing.services.fourth.name',
                 'shortDescription' => 'landing.services.fourth.short_description',
-                'icon'             => 'pe-7s-anchor',
+                'icon'             => 'pe-7s-plugin',
                 'itemSizeClasses'  => 'col-xs-12 col-sm-6 col-md-4 col-lg-4 mt30',
                 'position'         => 'leftReveal',
                 'showModal'        => false,
@@ -70,7 +70,7 @@
             @include('landing.section.service-item', [
                 'name'             => 'landing.services.fifth.name',
                 'shortDescription' => 'landing.services.fifth.short_description',
-                'icon'             => 'pe-7s-users',
+                'icon'             => 'pe-7s-display2',
                 'itemSizeClasses'  => 'col-xs-12 col-sm-6 col-md-4 col-lg-4 mt30',
                 'position'         => 'bottomReveal',
                 'showModal'        => false,
@@ -84,7 +84,7 @@
             @include('landing.section.service-item', [
                 'name'             => 'landing.services.sixth.name',
                 'shortDescription' => 'landing.services.sixth.short_description',
-                'icon'             => 'pe-7s-volume',
+                'icon'             => 'pe-7s-portfolio',
                 'itemSizeClasses'  => 'col-xs-12 col-sm-6 col-md-4 col-lg-4 mt30',
                 'position'         => 'rightReveal',
                 'showModal'        => false,

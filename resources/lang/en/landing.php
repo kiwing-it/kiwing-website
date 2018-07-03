@@ -65,64 +65,106 @@ return [
     ],
 
     'services' => [
+        'title' => 'Services',
         'first' => [
-            'name' => '1. Mobile Applications',
-            'short_description' => 'Mobile Applications (hybrid and native) sit amet, consectet adipiscing elit. Cras est urna, imperd eget sem at',
+            'name' => '1. Web Applications',
+            'short_description' => 'Desarrollamos plataformas que cumplen los desafíos de la Web: usabilidad, escalabilidad, seguridad y estabilidad.',
             'modal' => [
-                'title'       => 'Mobile Applications',
+                'title'       => 'Web Applications',
                 'description' => '',
-                'trigger'     => 'More info',
+                'trigger'     => 'Más info',
             ],
         ],
         'second' => [
-            'name' => '2. Web applications',
-            'short_description' => 'Web Applications sit amet, consectet adipiscing elit. Cras est urna, imperd eget sem at, pellentes que cursus elit.',
+            'name' => '2. Mobile Applications',
+            'short_description' => 'Desarrollamos aplicaciones para iOS y Android con la mejor experiencia de usuario, accesibilidad e integración.',
             'modal' => [
-                'title'       => 'Web applications',
+                'title'       => 'Mobile Applications',
                 'description' => '',
-                'trigger'     => 'More info',
+                'trigger'     => 'Más info',
             ],
         ],
         'third' => [
-            'name' => '3. Web Services',
-            'short_description' => 'Web Services sit amet, consectet adipiscing elit. Cras est urna, imperd eget sem at, pellentes que cursus elit.',
-            'modal' => [
-                'title'       => 'Web Services',
-                'description' => '',
-                'trigger'     => 'More info',
-            ],
-        ],
-        'fourth' => [
-            'name' => '4. Full Life-Cycle',
-            'short_description' => 'Full Life-Cycle sit amet, consectet adipiscing elit. Cras est urna, imperd eget sem at, pellentes que cursus elit.',
+            'name' => '3. Full Life-Cycle',
+            'short_description' => 'Trabajamos junto a sus expertos en el negocio capturando su visión para luego avanzar con iteraciones funcionales.',
             'modal' => [
                 'title'       => 'Full Life-Cycle',
                 'description' => '',
-                'trigger'     => 'More info',
+                'trigger'     => 'Más info',
             ],
         ],
-        'fifth' => [
-            'name' => '5. Consultancy',
-            'short_description' => 'Lorem ipsum dolor sit amet, consectet adipiscing elit. Cras est urna, imperd eget sem at, pellentes que cursus elit.',
-            'modal' => [
-                'title'       => 'Consultancy',
-                'description' => '',
-                'trigger'     => 'More info',
-            ],
-        ],
-        'sixth' => [
-            'name' => '6. Dedicated Teams',
-            'short_description' => 'Lorem ipsum dolor sit amet, consectet adipiscing elit. Cras est urna, imperd eget sem at, pellentes que cursus elit.',
+        'fourth' => [
+            'name' => '4. Dedicated Teams',
+            'short_description' => 'Nos integrarnos a equipos remotos en funcionamiento con total flexibilidad para aumentar la velocidad del mismo.',
             'modal' => [
                 'title'       => 'Dedicated Teams',
                 'description' => '',
-                'trigger'     => 'More info',
+                'trigger'     => 'Más info',
+            ],
+        ],
+        'fifth' => [
+            'name' => '5. Auditoría',
+            'short_description' => 'Realizamos un análisis profundo para identificar errores y problemas existentes en el núcleo de la empresa.',
+            'modal' => [
+                'title'       => 'Auditoría',
+                'description' => '',
+                'trigger'     => 'Más info',
+            ],
+        ],
+        'sixth' => [
+            'name' => '6. Consultancy',
+            'short_description' => 'Contamos con especialistas de primer nivel para dar soluciones a los problemas existentes en su negocio.',
+            'modal' => [
+                'title'       => 'Consultancy',
+                'description' => '',
+                'trigger'     => 'Más info',
             ],
         ],
     ],
 
     'about' => [
-        '' => '',
+        'title' => 'Empresa',
+        'boxes' => [
+            'first'  => [
+                'title'       => 'Our trade',
+                'subtitle'    => 'Designing, Developing, and <br>Innovating for people like you...',
+                'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec tristiq enim. Integer eu <strong>neque</strong> arcu. Aenean sed odio nibh. Cras imperdiet, arcu eget dictum vestibulum elit.',
+            ],
+            'second' => [
+                'title'       => 'How we started it',
+                'description' => [
+                    'p1' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras est urna, imperdiet eget sem at, pellentesque cursus elit. Etiam id ante et elit interdum sollicitudin. Cras imperdiet, arcu eget dictum vestibulum elit.',
+                    'p2' => 'Curabitur egestas interdum ex, sed commodo ipsum consectetur vitae. Nulla auctor ante erat. Class aptent taciti sociosqu nostra enean sed.',
+                ],
+            ],
+            'third'  => [
+                'title'       => 'Why?',
+                'description' => 'Lorem ipsum dolor sit amet, consectetur adipicing elit. tristique enim. Integer euef neque arcu. Aenean sed odio nibh. <strong>Cras imperdiet</strong>, arcu eget dictum vestibulumizor. Lorem ipsil dolor sit amet, consectetur adipiscing elit.',
+            ],
+            'fourth' => [
+                'title'       => 'Quote',
+                'description' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus quibusdam.',
+            ],
+        ],
+        'skills' => [
+            'title'  => 'Skills',
+            'first'  => 'Backend Development',
+            'second' => 'Frontend Development',
+            'third'  => 'Mobile Development',
+            'fourth' => 'Analysis and Design',
+            'fifth'  => 'Architecture',
+        ],
+    ],
+
+    'ourcount' => [
+        'title' => 'Números importantes',
+        'subtitle' => 'Aquí presentamos algunos recuentos que destacan nuestra trayectoria en forma sintética.',
+        'items' => [
+            'first'  => 'Productos internacionales',
+            'second' => 'Clientes satisfechos',
+            'third'  => 'Proyectos finalizados',
+            'fourth' => 'Líneas de código',
+        ],
     ],
 
     'work' => [
@@ -154,13 +196,14 @@ return [
         ],
     ],
 
-    'team' => [
-        '' => '',
-    ],
-
     'contact' => [
         'title'    => 'Contact',
-        'subtitle' => 'Drop us a line and we will contact you as soon as possible.',
+        'subtitle' => 'Déjenos su consulta, en la brevedad lo contactaremos.',
+        'form' => [
+            'title'       => 'Consúltenos',
+            'subtitle'    => 'Le brindaremos atención personalizada',
+            'description' => 'Un miembro de nuestro equipo de asesores especializados lo contactará para escuchar sus necesidades y ayudarlo a encontrar la mejor solución para su negocio.',
+        ],
         'placeholder' => [
             'subject' => 'Subject *',
             'phone'   => 'Phone',

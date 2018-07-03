@@ -65,56 +65,57 @@ return [
     ],
 
     'services' => [
+        'title' => 'Servicios',
         'first' => [
-            'name' => '1. Aplicaciones Móviles',
-            'short_description' => 'Mobile Applications (híbridas y nativas) sit amet, consectet adipiscing elit. Cras est urna, imperd eget sem at',
-            'modal' => [
-                'title'       => 'Aplicaciones Móviles',
-                'description' => '',
-                'trigger'     => 'Más info',
-            ],
-        ],
-        'second' => [
-            'name' => '2. Aplicaciones Web',
-            'short_description' => 'Web Applications sit amet, consectet adipiscing elit. Cras est urna, imperd eget sem at, pellentes que cursus elit.',
+            'name' => '1. Aplicaciones Web',
+            'short_description' => 'Desarrollamos plataformas que cumplen los desafíos de la Web: usabilidad, escalabilidad, seguridad y estabilidad.',
             'modal' => [
                 'title'       => 'Aplicaciones Web',
                 'description' => '',
                 'trigger'     => 'Más info',
             ],
         ],
-        'third' => [
-            'name' => '3. Servicios Web',
-            'short_description' => 'Web Services sit amet, consectet adipiscing elit. Cras est urna, imperd eget sem at, pellentes que cursus elit.',
+        'second' => [
+            'name' => '2. Aplicaciones Móviles',
+            'short_description' => 'Desarrollamos aplicaciones para iOS y Android con la mejor experiencia de usuario, accesibilidad e integración.',
             'modal' => [
-                'title'       => 'Servicios Web',
+                'title'       => 'Aplicaciones Móviles',
                 'description' => '',
                 'trigger'     => 'Más info',
             ],
         ],
-        'fourth' => [
-            'name' => '4. Ciclo de Vida Completo',
-            'short_description' => 'Full Life-Cycle sit amet, consectet adipiscing elit. Cras est urna, imperd eget sem at, pellentes que cursus elit.',
+        'third' => [
+            'name' => '3. Ciclo de Vida Completo',
+            'short_description' => 'Trabajamos junto a sus expertos en el negocio capturando su visión para luego avanzar con iteraciones funcionales.',
             'modal' => [
                 'title'       => 'Ciclo de Vida Completo',
                 'description' => '',
                 'trigger'     => 'Más info',
             ],
         ],
-        'fifth' => [
-            'name' => '5. Consultoría',
-            'short_description' => 'Lorem ipsum dolor sit amet, consectet adipiscing elit. Cras est urna, imperd eget sem at, pellentes que cursus elit.',
+        'fourth' => [
+            'name' => '4. Equipos Dedicados',
+            'short_description' => 'Nos integrarnos a equipos remotos en funcionamiento con total flexibilidad para aumentar la velocidad del mismo.',
             'modal' => [
-                'title'       => 'Consultoría',
+                'title'       => 'Equipos Dedicados',
+                'description' => '',
+                'trigger'     => 'Más info',
+            ],
+        ],
+        'fifth' => [
+            'name' => '5. Auditoría',
+            'short_description' => 'Realizamos un análisis profundo para identificar errores y problemas existentes en el núcleo de la empresa.',
+            'modal' => [
+                'title'       => 'Auditoría',
                 'description' => '',
                 'trigger'     => 'Más info',
             ],
         ],
         'sixth' => [
-            'name' => '6. Equipos Dedicados',
-            'short_description' => 'Lorem ipsum dolor sit amet, consectet adipiscing elit. Cras est urna, imperd eget sem at, pellentes que cursus elit.',
+            'name' => '6. Consultoría',
+            'short_description' => 'Contamos con especialistas de primer nivel para dar soluciones a los problemas existentes en su negocio.',
             'modal' => [
-                'title'       => 'Equipos Dedicados',
+                'title'       => 'Consultoría',
                 'description' => '',
                 'trigger'     => 'Más info',
             ],
@@ -122,7 +123,37 @@ return [
     ],
 
     'about' => [
-        '' => '',
+        'title' => 'Empresa',
+        'boxes' => [
+            'first'  => [
+                'title'       => 'Our trade',
+                'subtitle'    => 'Designing, Developing, and <br>Innovating for people like you...',
+                'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec tristiq enim. Integer eu <strong>neque</strong> arcu. Aenean sed odio nibh. Cras imperdiet, arcu eget dictum vestibulum elit.',
+            ],
+            'second' => [
+                'title'       => 'How we started it',
+                'description' => [
+                    'p1' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras est urna, imperdiet eget sem at, pellentesque cursus elit. Etiam id ante et elit interdum sollicitudin. Cras imperdiet, arcu eget dictum vestibulum elit.',
+                    'p2' => 'Curabitur egestas interdum ex, sed commodo ipsum consectetur vitae. Nulla auctor ante erat. Class aptent taciti sociosqu nostra enean sed.',
+                ],
+            ],
+            'third'  => [
+                'title'       => 'Why?',
+                'description' => 'Lorem ipsum dolor sit amet, consectetur adipicing elit. tristique enim. Integer euef neque arcu. Aenean sed odio nibh. <strong>Cras imperdiet</strong>, arcu eget dictum vestibulumizor. Lorem ipsil dolor sit amet, consectetur adipiscing elit.',
+            ],
+            'fourth' => [
+                'title'       => 'Quote',
+                'description' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus quibusdam.',
+            ],
+        ],
+        'skills' => [
+            'title'  => 'Habilidades',
+            'first'  => 'Desarrollo Backend',
+            'second' => 'Desarrollo Frontend',
+            'third'  => 'Desarrollo Móvil',
+            'fourth' => 'Análisis y Diseño',
+            'fifth'  => 'Arquitectura',
+        ],
     ],
 
     'ourcount' => [
@@ -163,10 +194,6 @@ return [
                 'description' => 'Aplicación de árboles genealógicos con inferencia de relaciones de parentesco no triviales, fusiones y combinaciones de árboles, o consultas lógicas sobre grandes cantidades de nodos. Se utilizó una base de datos orientada a grafos llamada Neo4j.',
             ],
         ],
-    ],
-
-    'team' => [
-        '' => '',
     ],
 
     'contact' => [

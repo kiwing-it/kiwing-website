@@ -13,7 +13,7 @@
                 <div class="circle-hold">
                     <i class="ion-ios-world"></i>
                 </div>
-                <h2 class="timer mb5" data-from="1" data-to="3" data-refresh-interval="60">1</h2>
+                <h2 class="timer mb5" data-from="1" data-to="3" data-refresh-interval="80">1</h2>
                 <p class="no-margin">{{ trans('landing.ourcount.items.first') }}</p>
             </div><!-- /.column -->
             <div class="col-sm-6 col-md-3 item mt30-xs rightReveal">

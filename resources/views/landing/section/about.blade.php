@@ -3,59 +3,59 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12 section-title text-center">
-                <h2>About</h2>
+                <h2>{{ trans('landing.about.title') }}</h2>
                 <span class="section-divider"></span>
             </div><!-- /.column -->
         </div><!-- /.row -->
         <div class="row mb15">
             <div class="col-sm-5 leftReveal">
-                <h5 class="heading-1 mb20">Our Trade</h5>
-                <h3 class="mb15 no-margin-top">Designing, Developing, and <br>Innovating for people like you...</h3>
-                <p class="no-margin text-small">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec tristiq enim. Integer eu <strong>neque</strong> arcu. Aenean sed odio nibh. Cras imperdiet, arcu eget dictum vestibulum elit.</p>
+                <h5 class="heading-1 mb20">{{ trans('landing.about.boxes.first.title') }}</h5>
+                <h3 class="mb15 no-margin-top">{{ trans('landing.about.boxes.first.subtitle') }}</h3>
+                <p class="no-margin text-small">{{ trans('landing.about.boxes.first.description') }}</p>
             </div><!-- /.column -->
             <div class="col-sm-7 mt30-xs rightReveal">
-                <h5 class="heading-1 mb20">How we started it</h5>
+                <h5 class="heading-1 mb20">{{ trans('landing.about.boxes.second.title') }}</h5>
                 <span class="icon-handle-streamline-vector logo-about"></span>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras est urna, imperdiet eget sem at, pellentesque cursus elit. Etiam id ante et elit interdum sollicitudin. Cras imperdiet, arcu eget dictum vestibulum elit.</p>
-                <p>Curabitur egestas interdum ex, sed commodo ipsum consectetur vitae. Nulla auctor ante erat. Class aptent taciti sociosqu nostra enean sed.</p>
+                <p>{{ trans('landing.about.boxes.second.description.p1') }}</p>
+                <p>{{ trans('landing.about.boxes.second.description.p2') }}</p>
             </div><!-- /.column -->
         </div><!-- /.row -->
         <div class="row mb30">
             <div class="col-sm-9 leftReveal">
-                <h5 class="heading-1 mb20">Why?</h5>
-                <p class="lead no-margin">Lorem ipsum dolor sit amet, consectetur adipicing elit. tristique enim. Integer euef neque arcu. Aenean sed odio nibh. <strong>Cras imperdiet</strong>, arcu eget dictum vestibulumizor. Lorem ipsil dolor sit amet, consectetur adipiscing elit.</p>
+                <h5 class="heading-1 mb20">{{ trans('landing.about.boxes.third.title') }}</h5>
+                <p class="lead no-margin">{{ trans('landing.about.boxes.third.description') }}</p>
             </div><!-- /.column -->
             <div class="col-sm-3 mt30-xs rightReveal">
-                <h5 class="heading-1 mb20">Quote</h5>
-                <p class="no-margin text-small"><i>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus quibusdam."</i></p>
+                <h5 class="heading-1 mb20">{{ trans('landing.about.boxes.fourth.title') }}</h5>
+                <p class="no-margin text-small"><i>"{{ trans('landing.about.boxes.fourth.description') }}"</i></p>
             </div><!-- /.column -->
         </div><!-- /.row -->
         <div class="row">
             <div class="col-lg-7 col-sm-5 bottomReveal">
-                <h5 class="heading-1 mb20">Skills</h5>
+                <h5 class="heading-1 mb20">{{ trans('landing.about.skills.title') }}</h5>
                 <div class="progress">
                     <div class="progress-bar text-left" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
-                        Desarrollo Backend
+                        {{ trans('landing.about.skills.first') }}
                     </div>
                 </div>
                 <div class="progress">
                     <div class="progress-bar text-left" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
-                        Desarrollo Frontend
+                        {{ trans('landing.about.skills.second') }}
                     </div>
                 </div>
                 <div class="progress">
                     <div class="progress-bar text-left" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
-                        Desarrollo Móvil
+                        {{ trans('landing.about.skills.third') }}
                     </div>
                 </div>
                 <div class="progress">
                     <div class="progress-bar text-left" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%;">
-                        Análisis y Diseño
+                        {{ trans('landing.about.skills.fourth') }}
                     </div>
                 </div>
                 <div class="progress">
                     <div class="progress-bar text-left" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
-                        Arquitectura
+                        {{ trans('landing.about.skills.fifth') }}
                     </div>
                 </div>
                 <div class="progress-meter mb30-xs">
