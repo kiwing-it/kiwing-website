@@ -195,7 +195,7 @@ return [
                 'description' => 'AnimaEdu es un marketplace de cursos en video para desarrollo personal.',
             ],
             'family_tree' => [
-                'title' => 'Árboles Genealógicos',
+                'title' => 'Family Trees App',
                 'description' => 'Aplicación de árboles genealógicos con inferencia de relaciones de parentesco no triviales, fusiones y combinaciones de árboles, o consultas lógicas sobre grandes cantidades de nodos. Se utilizó una base de datos orientada a grafos llamada Neo4j.',
             ],
         ],

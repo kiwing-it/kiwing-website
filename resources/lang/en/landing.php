@@ -68,56 +68,56 @@ return [
         'title' => 'Services',
         'first' => [
             'name' => '1. Web Applications',
-            'short_description' => 'Desarrollamos plataformas que cumplen los desafíos de la Web: usabilidad, escalabilidad, seguridad y estabilidad.',
+            'short_description' => 'We have developed platforms that meet the challenges of the Web: Usability, Scalability, Security, and Stability.',
             'modal' => [
                 'title'       => 'Web Applications',
                 'description' => '',
-                'trigger'     => 'Más info',
+                'trigger'     => 'More info',
             ],
         ],
         'second' => [
             'name' => '2. Mobile Applications',
-            'short_description' => 'Desarrollamos aplicaciones para iOS y Android con la mejor experiencia de usuario, accesibilidad e integración.',
+            'short_description' => 'We develop applications for iOS and Android with the best User Experience, Accessibility, and Integration.',
             'modal' => [
                 'title'       => 'Mobile Applications',
                 'description' => '',
-                'trigger'     => 'Más info',
+                'trigger'     => 'More info',
             ],
         ],
         'third' => [
             'name' => '3. Full Life-Cycle',
-            'short_description' => 'Trabajamos junto a sus expertos en el negocio capturando su visión para luego avanzar con iteraciones funcionales.',
+            'short_description' => 'We work with your business experts to capture your vision and then move forward with functional iterations.',
             'modal' => [
                 'title'       => 'Full Life-Cycle',
                 'description' => '',
-                'trigger'     => 'Más info',
+                'trigger'     => 'More info',
             ],
         ],
         'fourth' => [
             'name' => '4. Dedicated Teams',
-            'short_description' => 'Nos integrarnos a equipos remotos en funcionamiento con total flexibilidad para aumentar la velocidad del mismo.',
+            'short_description' => 'We integrate to remote teams with total flexibility in order to speed it up.',
             'modal' => [
                 'title'       => 'Dedicated Teams',
                 'description' => '',
-                'trigger'     => 'Más info',
+                'trigger'     => 'More info',
             ],
         ],
         'fifth' => [
-            'name' => '5. Auditoría',
-            'short_description' => 'Realizamos un análisis profundo para identificar errores y problemas existentes en el núcleo de la empresa.',
+            'name' => '5. Auditory',
+            'short_description' => 'We make an in-depth analysis to identify errors and problems in the company core.',
             'modal' => [
-                'title'       => 'Auditoría',
+                'title'       => 'Auditory',
                 'description' => '',
-                'trigger'     => 'Más info',
+                'trigger'     => 'More info',
             ],
         ],
         'sixth' => [
             'name' => '6. Consultancy',
-            'short_description' => 'Contamos con especialistas de primer nivel para dar soluciones a los problemas existentes en su negocio.',
+            'short_description' => 'We have first-rate specialists to provide solutions to existing problems in your business.',
             'modal' => [
                 'title'       => 'Consultancy',
                 'description' => '',
-                'trigger'     => 'Más info',
+                'trigger'     => 'More info',
             ],
         ],
     ],
@@ -126,29 +126,24 @@ return [
         'title' => 'Company',
         'boxes' => [
             'first'  => [
-                'title'       => 'Filosofía',
-                'subtitle'    => 'Pasión, creatividad y conocimiento...',
-                'description' => 'Tenemos una gran pasión por lo que hacemos, es nuestro estilo de vida. Para nosotros el desarrollo de Software de alta calidad 
-                                  es un proceso creativo que requiere de conocimientos avanzados sobre los diferentes actores que lo conforman.',
+                'title'       => 'Philosophy',
+                'subtitle'    => 'Passion, Creativity & Knowledge...',
+                'description' => 'We have a great passion for what we do, it\'s our lifestyle. For us, the development of high-quality software is a creative process that requires advanced knowledge about the different actors that are involved in it.',
             ],
             'second' => [
-                'title'       => '¿Quiénes somos?',
+                'title'       => 'Who are we?',
                 'description' => [
-                    'p1' => 'Somos un grupo de ingenieros y estudiantes avanzados de Ingeniería de Sistemas de Información. Nuestra orientación hacia las 
-                             Ciencias de la Computación hace que estemos altamente calificados y especializados en diferentes ámbitos. Tenemos como prioridad 
-                             satisfacer necesidades a través de la entrega temprana y continua de Software de calidad.',
-                    'p2' => 'Creemos en la tecnología como solución definitiva para mejorar la calidad de vida del hombre, haciéndolo más eficiente y eficaz 
-                             en su día a día.',
+                    'p1' => 'We are a group of engineers and advanced students of Information Systems Engineering. Our orientation towards Computer Science makes us highly qualified and specialized in different fields. Our priority is to satisfy needs through the early and continuous delivery of quality software.',
+                    'p2' => 'We believe in technology being the ultimate solution to unlock humans to work more efficiently and effectively.',
                 ],
             ],
             'third'  => [
-                'title'       => '¿Por qué elegirnos?',
-                'description' => 'Porque aquí encontrará un equipo de excelentes desarrolladores, pero por sobretodo grandes personas que sienten una profunda 
-                                  pasión por lo que hacen.',
+                'title'       => 'Why choose us?',
+                'description' => 'Because here you will find a team of excellent developers, but most importantly, great people who have a deep passion for what they do.',
             ],
             'fourth' => [
-                'title'       => 'Lema',
-                'description' => 'Diseño, desarrollo e innovación para cambiar de forma positiva la realidad de nuestros clientes',
+                'title'       => 'Motto',
+                'description' => 'Design, development and innovation to positively change the reality of our customers.',
             ],
         ],
         'skills' => [
@@ -162,13 +157,13 @@ return [
     ],
 
     'ourcount' => [
-        'title' => 'Números importantes',
-        'subtitle' => 'Aquí presentamos algunos recuentos que destacan nuestra trayectoria en forma sintética.',
+        'title' => 'Significant numbers',
+        'subtitle' => 'Here we present some accounts that highlight our trajectory in a synthetic way.',
         'items' => [
-            'first'  => 'Productos internacionales',
-            'second' => 'Clientes satisfechos',
-            'third'  => 'Proyectos finalizados',
-            'fourth' => 'Líneas de código',
+            'first'  => 'International products',
+            'second' => 'Satisfied clients',
+            'third'  => 'Completed projects',
+            'fourth' => 'Lines of code',
         ],
     ],
 
@@ -195,7 +190,7 @@ return [
                 'description' => 'AnimaEdu is a marketplace of video courses for personal development.',
             ],
             'family_tree' => [
-                'title' => 'Árboles Genealógicos',
+                'title' => 'Family Trees App',
                 'description' => 'Family trees app with inference of non-trivial kinship relationships, mergers and combinations of trees, or logical queries on large numbers of nodes. We have used a graph-oriented database called Neo4j.',
             ],
         ],
@@ -203,11 +198,11 @@ return [
 
     'contact' => [
         'title'    => 'Contact',
-        'subtitle' => 'Déjenos su consulta, en la brevedad lo contactaremos.',
+        'subtitle' => 'Drop us a line and we will contact you as soon as possible.',
         'form' => [
-            'title'       => 'Consúltenos',
-            'subtitle'    => 'Le brindaremos atención personalizada',
-            'description' => 'Un miembro de nuestro equipo de asesores especializados lo contactará para escuchar sus necesidades y ayudarlo a encontrar la mejor solución para su negocio.',
+            'title'       => 'Contact us',
+            'subtitle'    => 'We will provide you with personalized attention',
+            'description' => 'One of our consultants will contact you to listen to your needs and help you find the best solution for your business.',
         ],
         'placeholder' => [
             'subject' => 'Subject *',
