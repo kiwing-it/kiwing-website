@@ -4,7 +4,7 @@ return [
 
     'header' => [
         'home'     => 'Inicio',
-        'ideology' => 'Ideología',
+        'ideology' => 'Filosofía',
         'services' => 'Servicios',
         'about'    => 'Empresa',
         'work'     => 'Trabajos',
@@ -25,7 +25,7 @@ return [
             ],
         ],
         'process' => [
-            'title' => 'Nuestra ideología',
+            'title' => 'Nuestra filosofía',
             'values' => [
                 'first' => [
                     'title_top_part'    => 'Procesos',
@@ -95,7 +95,7 @@ return [
         ],
         'fourth' => [
             'name' => '4. Equipos Dedicados',
-            'short_description' => 'Nos integrarnos a equipos remotos en funcionamiento con total flexibilidad para aumentar la velocidad de los mismos.',
+            'short_description' => 'Nos integramos a equipos remotos en funcionamiento con total flexibilidad para aumentar la velocidad de los mismos.',
             'modal' => [
                 'title'       => 'Equipos Dedicados',
                 'description' => '',

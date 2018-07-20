@@ -13,3 +13,5 @@
 
 Route::get('/', 'PagesController@home')->name('home');
 Route::get('/locale/{locale}', 'PagesController@locale')->name('locale');
+
+Route::post('/contact-us', 'PagesController@contactUs')->name('contact_us');

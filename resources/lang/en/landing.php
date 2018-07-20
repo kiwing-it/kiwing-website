@@ -4,7 +4,7 @@ return [
 
     'header' => [
         'home'     => 'Home',
-        'ideology' => 'Ideology',
+        'ideology' => 'Philosophy',
         'services' => 'Services',
         'about'    => 'Company',
         'work'     => 'Work',
@@ -13,7 +13,7 @@ return [
     ],
 
     'home' => [
-        'main_message' => 'Knowledge, Creativity and Passion to maximize your business!',
+        'main_message' => 'Knowledge, creativity and passion to maximize your business!',
     ],
 
     'ideology' => [
@@ -25,7 +25,7 @@ return [
             ],
         ],
         'process' => [
-            'title' => 'Our ideology',
+            'title' => 'Our philosophy',
             'values' => [
                 'first' => [
                     'title_top_part'    => 'Agile',

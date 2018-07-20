@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use Illuminate\Http\Request;
+
 class PagesController
 {
     public function home()
@@ -20,5 +22,10 @@ class PagesController
         }
 
         return redirect()->route('home');
+    }
+
+    public function contactUs(Request $request)
+    {
+        return 'success';
     }
 }

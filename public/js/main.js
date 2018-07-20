@@ -5,6 +5,14 @@ $('#thework').mixItUp({
     }
 });
 
+$.ajaxSetup({
+    beforeSend: function(xhr, type) {
+        if (!type.crossDomain) {
+            xhr.setRequestHeader('X-CSRF-Token', $('meta[name="csrf-token"]').attr('content'));
+        }
+    },
+});
+
 /* ---- our ideology hover ---- */
 $('.process-box').hover(function() {
 	$(this).find('.process-intro').hide();
@@ -28,19 +36,26 @@ function submitForm() {
     // Initiate Variables With Form Content
     var name = $("#name").val();
     var email = $("#email").val();
-    var msg_subject = $("#msg_subject").val();
+    var phone = $("#phone").val();
+    var subject = $("#msg_subject").val();
     var message = $("#message").val();
+
     $.ajax({
         type: "POST",
-        url: "php/contact.php",
-        data: "name=" + name + "&email=" + email + "&msg_subject=" +
-            msg_subject + "&message=" + message,
-        success: function(text) {
-            if (text == "success") {
+        url: "contact-us",
+        data: {
+            name: name,
+            email: email,
+            phone: phone,
+            subject: subject,
+            message: message
+        },
+        success: function(response) {
+            if (response == "success") {
                 formSuccess();
             } else {
                 formError();
-                submitMSG(false, text);
+                submitMSG(false, response);
             }
         }
     });
