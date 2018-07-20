@@ -85,7 +85,7 @@
                             <img src="images/about/backend.jpg" alt="..." class="img-responsive">
                         </div>
                         <div class="item">
-                            <img src="images/about/sql.jpg" alt="..." class="img-responsive">
+                            <img src="images/about/sql.png" alt="..." class="img-responsive">
                         </div>
                         <div class="item">
                             <img src="images/about/nosql.png" alt="..." class="img-responsive">
