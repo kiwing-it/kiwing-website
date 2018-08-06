@@ -113,7 +113,7 @@ return [
         ],
         'sixth' => [
             'name' => '6. Consultancy',
-            'short_description' => 'We have first-rate specialists to provide solutions to existing problems in your business.',
+            'short_description' => 'We have first-rate specialists to provide solutions to your business problems.',
             'modal' => [
                 'title'       => 'Consultancy',
                 'description' => '',
