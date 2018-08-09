@@ -42,6 +42,19 @@
 
     <!-- Custom Stylesheet -->
     <link href="css/kiwing.css" rel="stylesheet">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123639179-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+        gtag('config', 'UA-123639179-1');
+    </script>
 </head>
 <body class="royal_preloader" data-spy="scroll" data-target=".navbar" data-offset="70">
     <div id="royal_preloader"></div>
