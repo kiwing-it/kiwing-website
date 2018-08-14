@@ -223,5 +223,11 @@ return [
         'up' => 'Up',
         'all_rights_reserved' => '&copy; 2018 Kiwing IT Labs. All rights reserved.',
     ],
+
+    'seo' => [
+        'title' => 'Kiwing | Top-notch Software Development - Argentina',
+        'description' => 'We are an IT Lab specialized in Software Development located in Argentina. We offer top-notch solutions in order to ensure your business success.',
+        'keywords' => 'argentina, agile, agile processes, direct communication, continuous training, top-notch solutions, software development, mobile, app, api, web application, progressive web application, pwa, laravel, php, javascript, vue, react, react native, node, ios, android, web, ionic, mysql, sql, software architecture, design patterns, passion, creativity, knowledge, full life-cycle, dedicated teams',
+    ],
     
 ];

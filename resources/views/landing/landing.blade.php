@@ -1,13 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:og="https://ogp.me/ns#">
 <head>
     <meta charset="utf-8"/>
-    <meta name="author" content="Kiwing IT Labs" />
-    <meta name="description" content="Kiwing IT Labs Website">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta name="csrf-token" content="{{ csrf_token() }}">
+    <meta name="author" content="Kiwing" />
+    <meta name="description" content="{{ trans('landing.seo.description') }}" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="csrf-token" content="{{ csrf_token() }}" />
+    <meta name="keywords" content="{{ trans('landing.seo.keywords') }}" />
+    <meta property="og:title" content="{{ trans('landing.seo.title') }}" />
+    <meta property="og:site_name" content="Kiwing" />
+    <meta property="og:description" content="{{ trans('landing.seo.description') }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.kiwing.it/" />
+    <meta property="og:image" content="https://www.kiwing.it/images/og_image-eee2f59114a216953a4fd66e330733dd.jpg" />
+    <meta property="og:image:width" content="1868" />
+    <meta property="og:image:height" content="1728" />
 
-    <title>Kiwing IT Labs</title>
+    @if($alternativeLocale === 'en')
+        <meta property="og:locale" content="es_AR" />
+        <meta property="og:locale:alternate" content="en_US" />
+    @else
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:locale:alternate" content="es_AR" />
+    @endif
+
+    <title>{{ trans('landing.seo.title') }}</title>
 
     <!-- Royal Preloader CSS -->
     <link href="css/royal_preloader.css" rel="stylesheet">

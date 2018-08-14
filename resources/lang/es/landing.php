@@ -228,5 +228,11 @@ return [
         'up' => 'Up',
         'all_rights_reserved' => '&copy; :year Kiwing IT Labs. Todos los derechos reservados.',
     ],
+
+    'seo' => [
+        'title' => 'Kiwing | Desarrollo de Software de Alta Calidad - Argentina',
+        'description' => 'Somos un laboratorio especializado en Desarrollo de Software con sede en Argentina. Ofrecemos soluciones de alta calidad para que el éxito de su negocio sea un hecho.',
+        'keywords' => 'argentina, ágil, procesos ágiles, comunicación directa, capacitación continua, soluciones de alta calidad, desarrollo de software, móvil, app, api, aplicación web, aplicación web progresiva, pwa, laravel, php, javascript, vue, react, react native, node, ios, android, web, ionic, mysql, sql, arquitectura de software, patrones de diseño, conocimiento, creatividad, pasión, ciclo de vida completo, equipos dedicados',
+    ],
     
 ];
