@@ -47,9 +47,9 @@ return [
         'testimonials' => [
             'title' => 'Testimonios',
             'first' => [
-                'content' => 'Phasellus pulvinar lacinia elit nec tristique. Nulla accumsan velit id nulla tincidunt ornare. Sed cursus urna sed. Aliquam elementum orci at dolor viverra.',
-                'author_name' => 'One person',
-                'author_position' => 'Developer en Workana',
+                'content' => 'Trabajar con Kiwing es una experiencia recomendable. Son un socio confiable, con amplia experiencia llevando adelante desarrollos de aplicaciones web complejas.',
+                'author_name' => 'Leandro Masri',
+                'author_position' => 'CPO AnimaEdu',
             ],
             'second' => [
                 'content' => 'Phasellus pulvinar lacinia elit nec tristique. Nulla accumsan velit id nulla tincidunt ornare. Sed cursus urna sed. Aliquam elementum orci at dolor viverra.',
@@ -166,7 +166,7 @@ return [
         'subtitle' => 'Aquí presentamos algunos recuentos que destacan nuestra trayectoria en forma sintética.',
         'items' => [
             'first'  => 'Productos internacionales',
-            'second' => 'Clientes satisfechos',
+            'second' => 'Recontrataciones de clientes',
             'third'  => 'Proyectos finalizados',
             'fourth' => 'Líneas de código',
         ],

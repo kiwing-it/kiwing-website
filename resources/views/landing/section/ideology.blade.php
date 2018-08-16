@@ -105,5 +105,7 @@
     </div><!-- /.div -->
     <!-- End Our Process -->
 
+    @include('landing.section.testimonials')
+
 </section><!-- /.section -->
 <!-- End Intro -->

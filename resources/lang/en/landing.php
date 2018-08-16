@@ -47,19 +47,19 @@ return [
         'testimonials' => [
             'title' => 'Testimonials',
             'first' => [
-                'content' => 'Phasellus pulvinar lacinia elit nec tristique. Nulla accumsan velit id nulla tincidunt ornare. Sed cursus urna sed. Aliquam elementum orci at dolor viverra.',
-                'author_name' => 'One person',
-                'author_position' => 'Developer at Workana',
+                'content' => 'Trabajar con Kiwing es una experiencia recomendable. Son un socio confiable, con amplia experiencia llevando adelante desarrollos de aplicaciones web complejas.',
+                'author_name' => 'Leandro Masri',
+                'author_position' => 'CPO AnimaEdu',
             ],
             'second' => [
                 'content' => 'Phasellus pulvinar lacinia elit nec tristique. Nulla accumsan velit id nulla tincidunt ornare. Sed cursus urna sed. Aliquam elementum orci at dolor viverra.',
                 'author_name' => 'One person',
-                'author_position' => 'CEO at Kiwing',
+                'author_position' => 'CEO en Kiwing',
             ],
             'third' => [
                 'content' => 'Phasellus pulvinar lacinia elit nec tristique. Nulla accumsan velit id nulla tincidunt ornare. Sed cursus urna sed. Aliquam elementum orci at dolor viverra.',
                 'author_name' => 'One person',
-                'author_position' => 'CTO at Facebook',
+                'author_position' => 'CTO in Facebook',
             ],
         ],
     ],
@@ -161,7 +161,7 @@ return [
         'subtitle' => 'Here we present some accounts that highlight our trajectory in a synthetic way.',
         'items' => [
             'first'  => 'International products',
-            'second' => 'Satisfied clients',
+            'second' => 'Client rehirements',
             'third'  => 'Completed projects',
             'fourth' => 'Lines of code',
         ],

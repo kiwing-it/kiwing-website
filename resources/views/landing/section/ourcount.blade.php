@@ -34,7 +34,7 @@
                 <div class="circle-hold">
                     <i class="ion-code"></i>
                 </div>
-                <h2 class="timer mb5" data-from="1" data-to="7233098" data-refresh-interval="40">1</h2>
+                <h2 class="timer mb5" data-from="1" data-to="9233098" data-refresh-interval="35">1</h2>
                 <p class="no-margin">{{ trans('landing.ourcount.items.fourth') }}</p>
             </div><!-- /.column -->
         </div><!-- /.row -->
