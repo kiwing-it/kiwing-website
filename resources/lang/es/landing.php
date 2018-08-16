@@ -47,14 +47,14 @@ return [
         'testimonials' => [
             'title' => 'Testimonios',
             'first' => [
-                'content' => 'Trabajar con Kiwing es una experiencia recomendable. Son un socio confiable, con amplia experiencia llevando adelante desarrollos de aplicaciones web complejas.',
-                'author_name' => 'Leandro Masri',
-                'author_position' => 'CPO AnimaEdu',
+                'content' => 'We\'ve been working with Kiwing for years now, and our experience has always been amazing. They really know their stuff, and the quality of their work is outstanding.',
+                'author_name' => 'Tomas O\'Farrell',
+                'author_position' => 'Co-Founder en Workana',
             ],
             'second' => [
-                'content' => 'Phasellus pulvinar lacinia elit nec tristique. Nulla accumsan velit id nulla tincidunt ornare. Sed cursus urna sed. Aliquam elementum orci at dolor viverra.',
-                'author_name' => 'One person',
-                'author_position' => 'CEO en Kiwing',
+                'content' => 'Trabajar con Kiwing es una experiencia recomendable. Son un socio confiable, con amplia experiencia llevando adelante desarrollos de aplicaciones web complejas.',
+                'author_name' => 'Leandro Masri',
+                'author_position' => 'CPO en AnimaEdu',
             ],
             'third' => [
                 'content' => 'Phasellus pulvinar lacinia elit nec tristique. Nulla accumsan velit id nulla tincidunt ornare. Sed cursus urna sed. Aliquam elementum orci at dolor viverra.',
