@@ -13,7 +13,7 @@
                         <span class="icon-bar"></span>
                     </button>
                     <a class="navbar-brand scroll-link" href="#home" data-id="home">
-                        <img src="images/kiwing-name.png" />
+                        <img src="/images/kiwing-name.png" />
                     </a>
                 </div>
 
@@ -28,7 +28,7 @@
                         <li><a href="#contact" data-id="contact" class="scroll-link">{{ trans('landing.header.contact') }}</a></li>
                         <li>
                             <a href="{{ route('locale', ['locale' => $alternativeLocale]) }}" data-id="locale">
-                                <img src="images/{{ $alternativeLocale }}-flag.png" style="width: 4.5rem; height: 2.5rem;">
+                                <img src="/images/{{ $alternativeLocale }}-flag.png" style="width: 4.5rem; height: 2.5rem;">
                             </a>
                         </li>
                     </ul>

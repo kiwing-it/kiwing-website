@@ -3,7 +3,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-8 col-sm-offset-2 text-center">
-                <img src="images/kiwing-bird-black.png" style="width: 8rem; height: 8rem;" />
+                <img src="/images/kiwing-bird-black.png" style="width: 8rem; height: 8rem;" />
                 
                 <h2 class="theme-title">Kiwing <span class="theme-title-smaller">IT Labs</span></h2>
                 

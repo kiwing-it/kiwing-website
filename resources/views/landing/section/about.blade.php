@@ -82,28 +82,28 @@
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner" role="listbox">
                         <div class="item active">
-                            <img src="images/about/backend.jpg" alt="..." class="img-responsive">
+                            <img src="/images/about/backend.jpg" alt="..." class="img-responsive">
                         </div>
                         <div class="item">
-                            <img src="images/about/sql.png" alt="..." class="img-responsive">
+                            <img src="/images/about/sql.png" alt="..." class="img-responsive">
                         </div>
                         <div class="item">
-                            <img src="images/about/nosql.png" alt="..." class="img-responsive">
+                            <img src="/images/about/nosql.png" alt="..." class="img-responsive">
                         </div>
                         <div class="item">
-                            <img src="images/about/frontend-1.png" alt="..." class="img-responsive">
+                            <img src="/images/about/frontend-1.png" alt="..." class="img-responsive">
                         </div>
                         <div class="item">
-                            <img src="images/about/frontend-2.png" alt="..." class="img-responsive">
+                            <img src="/images/about/frontend-2.png" alt="..." class="img-responsive">
                         </div>
                         <div class="item">
-                            <img src="images/about/mobile-1.jpg" alt="..." class="img-responsive">
+                            <img src="/images/about/mobile-1.jpg" alt="..." class="img-responsive">
                         </div>
                         <div class="item">
-                            <img src="images/about/mobile-2.png" alt="..." class="img-responsive">
+                            <img src="/images/about/mobile-2.png" alt="..." class="img-responsive">
                         </div>
                         <div class="item">
-                            <img src="images/about/architecture.jpg" alt="..." class="img-responsive">
+                            <img src="/images/about/architecture.jpg" alt="..." class="img-responsive">
                         </div>
                     </div>
                 </div>

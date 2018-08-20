@@ -4,7 +4,7 @@
     <div class="container center-vertically-holder">
         <div class="center-vertically">
             <div class="col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3 text-center">
-                <img src="images/kiwing-bird-white.png" />
+                <img src="/images/kiwing-bird-white.png" />
 
                 <hr class="bottomReveal" />
                 

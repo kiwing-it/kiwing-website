@@ -1,5 +1,5 @@
 <!-- Begin Work -->
-<section id="work" class="background1 section-padding-top">
+<section id="work" class="background1 section-padding">
     <div class="container-fluid">
         <div class="row">
             <div class="col-xs-12 section-title text-center">
@@ -37,8 +37,8 @@
 
             <!-- Item 1 -->
             @include('landing.section.work-item', [
-            	'mainImage'    => 'images/work/workana/main.png',
-            	'detailImage'  => 'images/work/workana/detail.png',
+            	'mainImage'    => '/images/work/workana/main.png',
+            	'detailImage'  => '/images/work/workana/detail.png',
             	'categoryId'   => 'web-application',
             	'categoryName' => trans('landing.work.categories.web_application'),
             	'priority'     => '1',
@@ -49,8 +49,8 @@
 
             <!-- Item 2 -->
 			@include('landing.section.work-item', [
-                'mainImage'    => 'images/work/pausa/main.png',
-                'detailImage'  => 'images/work/pausa/detail.png',
+                'mainImage'    => '/images/work/pausa/main.png',
+                'detailImage'  => '/images/work/pausa/detail.png',
                 'categoryId'   => 'mobile-application',
                 'categoryName' => trans('landing.work.categories.mobile_application'),
                 'priority'     => '2',
@@ -61,8 +61,8 @@
 
 			<!-- Item 3 -->
 			@include('landing.section.work-item', [
-				'mainImage'    => 'images/work/animaedu/main.png',
-				'detailImage'  => 'images/work/animaedu/detail.png',
+				'mainImage'    => '/images/work/animaedu/main.png',
+				'detailImage'  => '/images/work/animaedu/detail.png',
 				'categoryId'   => 'web-application',
 				'categoryName' => trans('landing.work.categories.web_application'),
 				'priority'     => '3',
@@ -73,8 +73,8 @@
 
 			<!-- Item 4 -->
 			@include('landing.section.work-item', [
-				'mainImage'    => 'images/work/family-tree/main.png',
-				'detailImage'  => 'images/work/family-tree/detail.png',
+				'mainImage'    => '/images/work/family-tree/main.png',
+				'detailImage'  => '/images/work/family-tree/detail.png',
 				'categoryId'   => 'web-application',
 				'categoryName' => trans('landing.work.categories.web_application'),
 				'priority'     => '4',
