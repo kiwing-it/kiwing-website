@@ -100,7 +100,6 @@
     
     <!-- Javascript Files -->
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyArLNT3t4qsJEBmR0R9P_6ueLIQz0Jvt1M&callback=initMap" async defer></script>
     <script type="text/javascript">
         /* ---- Google Maps ---- */
         function initMap() {
@@ -151,6 +150,7 @@
             });
         }
     </script>
+    <script src="https://maps.googleapis.com/maps/api/js?callback=initMap" async defer></script>
     <script type="text/javascript" src="js/particles.min.js"></script>
     <script type="text/javascript" src="js/particlesRun.js"></script>
     <script type="text/javascript" src="js/jquery.mixitup.js"></script>
