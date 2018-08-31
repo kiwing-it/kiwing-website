@@ -13,7 +13,7 @@ return [
     ],
 
     'home' => [
-        'main_message' => '¡Conocimiento, creatividad y pasión para llevar al máximo su negocio!',
+        'main_message' => '¡Soluciones de alta calidad con foco en su modelo de negocio!',
     ],
 
     'ideology' => [
@@ -57,9 +57,9 @@ return [
                 'author_position' => 'CPO en AnimaEdu',
             ],
             'third' => [
-                'content' => 'Phasellus pulvinar lacinia elit nec tristique. Nulla accumsan velit id nulla tincidunt ornare. Sed cursus urna sed. Aliquam elementum orci at dolor viverra.',
-                'author_name' => 'One person',
-                'author_position' => 'CTO in Facebook',
+                'content' => 'If I had to name two assets which stand out from the Kiwing team, those would be: 1) great discipline to stick to timelines; and 2) their hunger to always go well beyond, adding extra layers of quality to every project.',
+                'author_name' => 'Julián Genoud',
+                'author_position' => 'Head of Product en AnimaEdu',
             ],
         ],
     ],
@@ -226,11 +226,11 @@ return [
 
     'footer' => [
         'up' => 'Up',
-        'all_rights_reserved' => '&copy; :year Kiwing IT Labs. Todos los derechos reservados.',
+        'all_rights_reserved' => '&copy; :year Kiwing. Todos los derechos reservados.',
     ],
 
     'seo' => [
-        'title' => 'Kiwing | Desarrollo de Software de Alta Calidad - Argentina',
+        'title' => 'Kiwing | Soluciones de alta calidad con foco en su modelo de negocio - Argentina',
         'description' => 'Somos un laboratorio especializado en Desarrollo de Software con sede en Argentina. Ofrecemos soluciones de alta calidad para que el éxito de su negocio sea un hecho.',
         'keywords' => 'argentina, ágil, procesos ágiles, comunicación directa, capacitación continua, soluciones de alta calidad, desarrollo de software, móvil, app, api, aplicación web, aplicación web progresiva, pwa, laravel, php, javascript, vue, react, react native, node, ios, android, web, ionic, mysql, sql, arquitectura de software, patrones de diseño, conocimiento, creatividad, pasión, ciclo de vida completo, equipos dedicados',
     ],

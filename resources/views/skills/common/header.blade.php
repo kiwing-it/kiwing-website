@@ -12,23 +12,19 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand scroll-link" href="#home" data-id="home">
-                        <img src="images/kiwing-name.png" />
+                    <a class="navbar-brand" href="/">
+                        <img src="/images/kiwing-name.png" />
                     </a>
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#home" data-id="home" class="scroll-link">{{ trans('landing.header.home') }}</a></li>
-                        <li><a href="#ideology" data-id="ideology" class="scroll-link">{{ trans('landing.header.ideology') }}</a></li>
-                        <li><a href="#services" data-id="services" class="scroll-link">{{ trans('landing.header.services') }}</a></li>
-                        <li><a href="#about" data-id="about" class="scroll-link">{{ trans('landing.header.about') }}</a></li>
-                        <li><a href="#work" data-id="work" class="scroll-link">{{ trans('landing.header.work') }}</a></li>
-                        <li><a href="#contact" data-id="contact" class="scroll-link">{{ trans('landing.header.contact') }}</a></li>
+                        <li><a href="#profile" data-id="profile" class="scroll-link">{{ trans('skills.header.navigation.profile') }}</a></li>
+                        <li><a href="#more-options" data-id="more-options" class="scroll-link">{{ trans('skills.header.navigation.more_options') }}</a></li>
                         <li>
                             <a href="{{ route('locale', ['locale' => $alternativeLocale]) }}" data-id="locale">
-                                <img src="images/{{ $alternativeLocale }}-flag.png" style="width: 4.5rem; height: 2.5rem;">
+                                <img src="/images/{{ $alternativeLocale }}-flag.png" style="width: 4.5rem; height: 2.5rem;">
                             </a>
                         </li>
                     </ul>
@@ -37,5 +33,31 @@
         </div><!-- /.container-fluid -->
     </nav>
     <!-- End Navigation -->
+
+    <!-- Begin Breadcrumbs -->
+    <div class="breadcrumb-holder">
+        <div class="container-fluid">
+            <div class="row">
+
+                <!-- Page Title -->
+                <div class="hidden-xs col-sm-6">
+                    <h1>{{ trans('skills.header.breadcrumbs.current') }}</h1>
+                </div>
+
+                <!-- Breadcrumbs -->
+                <div class="col-xs-12 col-sm-6 text-right">
+                    <ol class="breadcrumb">
+                        <li>
+                            <span class="ion-home breadcrumb-home"></span>
+                            <a href="/">{{ trans('skills.header.breadcrumbs.home') }}</a>
+                        </li>
+                        <li>{{ trans('skills.header.breadcrumbs.current') }}</li>
+                    </ol>
+                </div><!-- /column -->
+            </div><!-- /row -->
+        </div><!-- /container -->
+    </div>
+    <!-- End Breadcrumbs -->
+
 </header>
 <!-- End Header -->

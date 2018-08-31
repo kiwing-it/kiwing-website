@@ -15,3 +15,6 @@ Route::get('/', 'PagesController@home')->name('home');
 Route::get('/locale/{locale}', 'PagesController@locale')->name('locale');
 
 Route::post('/contact-us', 'PagesController@contactUs')->name('contact_us');
+
+Route::get('/skills/{slug}/single', 'PagesController@singleSkills')->name('single_skills');
+Route::get('/skills/{slug}/team', 'PagesController@teamSkills')->name('team_skills');

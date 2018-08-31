@@ -10,6 +10,10 @@ use Illuminate\Support\Facades\Mail;
 
 class PagesController
 {
+    const LANDING_VIEW = 'landing.landing';
+    const SINGLE_SKILLS_VIEW = 'skills.single.%s';
+    const TEAM_SKILLS_VIEW = 'skills.team.%s';
+
     public function home()
     {
         $alternativeLocale = app()->getLocale() !== 'es' ? 'es' : 'en';
@@ -59,5 +63,31 @@ class PagesController
         }
 
         return 'success';
+    }
+
+    public function singleSkills(Request $request, $slug)
+    {
+        $view = sprintf(self::SINGLE_SKILLS_VIEW, $slug);
+
+        if (!view()->exists($view)) {
+            return redirect()->route('home');
+        }
+
+        $alternativeLocale = app()->getLocale() !== 'es' ? 'es' : 'en';
+
+        return view($view, compact('alternativeLocale'));
+    }
+
+    public function teamSkills(Request $request, $slug)
+    {
+        $view = sprintf(self::TEAM_SKILLS_VIEW, $slug);
+
+        if (!view()->exists($view)) {
+            return redirect()->route('home');
+        }
+
+        $alternativeLocale = app()->getLocale() !== 'es' ? 'es' : 'en';
+
+        return view($view, compact('alternativeLocale'));
     }
 }

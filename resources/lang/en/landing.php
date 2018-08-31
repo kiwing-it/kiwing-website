@@ -13,7 +13,7 @@ return [
     ],
 
     'home' => [
-        'main_message' => 'Knowledge, creativity and passion to maximize your business!',
+        'main_message' => 'Top-notch solutions focused on your business model!',
     ],
 
     'ideology' => [
@@ -57,9 +57,9 @@ return [
                 'author_position' => 'CPO at AnimaEdu',
             ],
             'third' => [
-                'content' => 'Phasellus pulvinar lacinia elit nec tristique. Nulla accumsan velit id nulla tincidunt ornare. Sed cursus urna sed. Aliquam elementum orci at dolor viverra.',
-                'author_name' => 'One person',
-                'author_position' => 'CTO in Facebook',
+                'content' => 'If I had to name two assets which stand out from the Kiwing team, those would be: 1) great discipline to stick to timelines; and 2) their hunger to always go well beyond, adding extra layers of quality to every project.',
+                'author_name' => 'Julián Genoud',
+                'author_position' => 'Head of Product at AnimaEdu',
             ],
         ],
     ],
@@ -221,11 +221,11 @@ return [
 
     'footer' => [
         'up' => 'Up',
-        'all_rights_reserved' => '&copy; 2018 Kiwing IT Labs. All rights reserved.',
+        'all_rights_reserved' => '&copy; :year Kiwing. All rights reserved.',
     ],
 
     'seo' => [
-        'title' => 'Kiwing | Top-notch Software Development - Argentina',
+        'title' => 'Kiwing | Top-notch solutions focused on your business model - Argentina',
         'description' => 'We are an IT Lab specialized in Software Development located in Argentina. We offer top-notch solutions in order to ensure your business success.',
         'keywords' => 'argentina, agile, agile processes, direct communication, continuous training, top-notch solutions, software development, mobile, app, api, web application, progressive web application, pwa, laravel, php, javascript, vue, react, react native, node, ios, android, web, ionic, mysql, sql, software architecture, design patterns, passion, creativity, knowledge, full life-cycle, dedicated teams',
     ],

@@ -3,7 +3,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-8 col-sm-offset-2 text-center">
-                <img src="images/kiwing-bird-black.png" style="width: 8rem; height: 8rem;" />
+                <img src="/images/kiwing-bird-black.png" style="width: 8rem; height: 8rem;" />
                 
                 <h2 class="theme-title">Kiwing <span class="theme-title-smaller">IT Labs</span></h2>
                 
@@ -25,9 +25,9 @@
             <div class="col-sm-8 col-sm-offset-2 text-small text-center">
                 <hr>
                 <button type="button" class="btn btn-primary btn-up-footer btn-lg scroll-top">
-                    {{ trans('landing.footer.up') }}
+                    {{ trans('skills.footer.up') }}
                 </button>
-                <p class="no-margin">{{ trans('landing.footer.all_rights_reserved', ['year' => date('Y')]) }}</p>
+                <p class="no-margin">{{ trans('skills.footer.all_rights_reserved', ['year' => date('Y')]) }}</p>
             </div><!-- /.column -->
         </div><!-- /.row -->
     </div><!-- /.container -->

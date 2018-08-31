@@ -10,6 +10,7 @@
                     <ol class="carousel-indicators">
                         <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
                         <li data-target="#quote-carousel" data-slide-to="1"></li>
+                        <li data-target="#quote-carousel" data-slide-to="2"></li>
                     </ol>
                     <!-- Carousel items -->
                     <div class="carousel-inner">
@@ -28,6 +29,15 @@
                                     "{{ trans('landing.ideology.testimonials.second.content') }}"
                                     <br />
                                     <span>{{ trans('landing.ideology.testimonials.second.author_name') }}, {{ trans('landing.ideology.testimonials.second.author_position') }}</span>
+                                </p>
+                            </blockquote>
+                        </div>
+                        <div class="item">
+                            <blockquote>
+                                <p>
+                                    "{{ trans('landing.ideology.testimonials.third.content') }}"
+                                    <br />
+                                    <span>{{ trans('landing.ideology.testimonials.third.author_name') }}, {{ trans('landing.ideology.testimonials.third.author_position') }}</span>
                                 </p>
                             </blockquote>
                         </div>

@@ -59,10 +59,10 @@
                     </div>
                 </div>
                 <div class="progress-meter mb30-xs">
-                    <div class="meter meter-left" style="width: 30%;"><span class="meter-text">Junior</span></div>
-                    <div class="meter meter-left" style="width: 40%;"><span class="meter-text">Semi-Senior</span></div>
-                    <div class="meter meter-right" style="width: 15%;"><span class="meter-text">Kiwi</span></div>
-                    <div class="meter meter-right" style="width: 15%;"><span class="meter-text">Senior</span></div>
+                    <div class="meter meter-left" style="width: 45%;"><span class="meter-text">Junior</span></div>
+                    <div class="meter meter-left" style="width: 30%;"><span class="meter-text">Semi-Senior</span></div>
+                    <div class="meter meter-right" style="width: 8%;"><span class="meter-text">Kiwi</span></div>
+                    <div class="meter meter-right" style="width: 17%;"><span class="meter-text">Senior</span></div>
                 </div>
             </div><!-- /.column -->
             <div class="col-lg-5 col-sm-7 mt10 rotateLeftReveal">
